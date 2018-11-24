@@ -16,10 +16,49 @@ Therefore, we will determine the degree of involvement of charities whose names 
 * Can we classify the charities that actually have offshore accounts as legitimate uses or illegal ones ? 
 * How does this impact charity donations, e.g. what charities can be seen as less trustworthy as a result of this research?
 
+##Project Structure
+```
+* _data
+	* [...]
+* _doc
+	*  [...]
+* _generated
+	* _charities
+		* Forbes_top_100_US_Charities.csv
+			> Scraped charity info from Forbes article
+		* wikipedia_charity_info.csv
+			> Scraped charity info from wikipedia pages
+		* wikipeida_charity_links.csv
+			> Scraped charity wikipedia links
+	* _INGO
+		* wikipedia_INGO_info.csv
+			> Scraped INGO info from wikipeda pages
+		* wikipedia_INGO_links.csv
+			> Scraped INGO wikipeida links
+* _results
+	* [...]
+* _src
+	* _charities
+		* Forbes_list_scraping.ipynb
+			> Notebook with:
+				> functions to scrape the given forbes article
+				> analysis of the found data
+		* Wikipedia_charities_scraping.ipynb
+			> Notebook with:
+				> functions to scrape the given wikipedia page
+				> analysis of the found data
+	* _INGO
+		* Wikipedia_INGO_scraping.ipynb
+			> Notebook with:
+				> functions to scrape the given wikipedia page
+				> analysis of the found data
+	* name_extraction.ipynb
+	* 
+* _temp
+	* [...]
+	
+```
 ## Dataset
-* __Wikipedia Dataset__:
-	* __Goal__: Collect information about a set of charities, including their official names and known addresses
-	* __Database__: Either the given data on the cluster, or extract it ourselves from wikipedia’s page listing charitable foundations (https://en.wikipedia.org/wiki/List_of_charitable_foundations)
 
 * __Panama Papers Dataset__:
 	* __Goal__: 
@@ -35,14 +74,77 @@ Therefore, we will determine the degree of involvement of charities whose names 
 			* __Name__: THE INTERNATIONAL RED CROSS OF GENEVA (sic)
 			* __Panamanian Trust__: TARBES TRUST (FIDEICOMISO) (Also representing “WORLD WILDLIFE FUND” and “UNICEF”)
 
+##Further sources: websites
+* __Wikipedia__:
+	* __Links__:
+		* List of charitable foundations: 
+		https://en.wikipedia.org/wiki/List_of_charitable_foundations
+		* List of International Non-governmental organizations: 
+		https://en.wikipedia.org/wiki/International_non-governmental_organization
+	* __Method of Collection__: Web Scraping (Beautiful Soup)
+		
+	* __Information extracted__: Charity/NGO name, names of leaders, revenue, headquarters, location, other names, subsidiaries and purpose of all listed charities/NGOs, given availability of the information on the linked wikipedia pages of each charity/NGO.
+	* __Reason chosen__: Abundant, easily available data whose semi-structured navboxes are relatively simple to scrape
+	* __Problems encountered__: Available data varies from charity to charity, resulting in a sometimes sparse dataset. 
+	
+* __Forbes Website__:
+	* __Links__: 
+		*Article about the 100 largest charities in the USA:
+		https://www.forbes.com/sites/williampbarrett/2016/12/14/the-largest-u-s-charities-for-2016/#5ca92a8d4abb
+	* __Method of Collection__: Web Scraping (Beautiful Soup)
+	* __Information Extracted__: Charity name, revenue, purpose, name of leader, end of last fiscal year (as of 2016), headquarters, and country of 100 of the largest charities in the USA, according to Forbes.
+	* __Reason chosen__: Clean, complete, well structured and therefore easily scrapable data.
+	* __Problems encountered__: Restricted to big US charities
+	
 
-## A list of internal milestones up until project milestone 2
-* Gather information about top charities from wikipedia
-* Create a Database for official charity names (and variations) found in the Panama Papers.
-* Establish potential connections between them.
+## A list of internal milestones accomplished for milestone 2
+* Gathering information about top charities from wikipedia (and now Forbes) and storing it as csv files
+* Analysis of the Panama Papers, for a better understanding of their structure. A small-scale local test has shown that we will easily be able to cross check names. (This will be completed for milestone 3.)
+* Set up of a number of methods to find name variants in the Panama papers, such as splitting the names of charities into separate words, removing the stop words like "the" or "for" and computing the percentage of correspondence between them and the Mossack Fonsecca entities.
+
+## A list of internal milestones to accomplish for milestone 3
+* Systematically cross-check charity names and variants of them in the Panama Papers "entity" files using the cluster (while there are fewer than 1000 charities to be tested, the sheer size of the leaks makes running any cross-check of the name variants locally too time consuming.)
+* Analyse the hits of the cross-check to determine whether they are random or genuine (this will have to be done manually, as it would take too much time to teach a train a classifer to determine whether a variant of a name is similar enough not to be random. But based on our manual tests on the ICIJ website, which gives us a search engine for the papers, we are anticipating that there will not be too many hits.)
+
+	* Step 1:  Check the number of significant words in a charity name that match a Panama Papers entity's name
+	
+		*International Federation Red Cross Red Crescent Societies => THE INTERNATIONAL RED CROSS OF GENEVA*
+	
+	(Note that stopwords were removed from the charity name)
+			
+		Matches: International + Red + Cross
+		Hits: 3 hits and 3/7 words correspondence
+		Percentage: 3/7 for the charity, 3/6 for the entity
+		
+	The threshold can be varied to increase or decrease the number of hits depending on output.
+	
+	* Step 2: Check that this is not a random hit
+	
+	* Step 3: Is this a real charity's account or a fake entity using its name? 
+	
+		__Proposed scoring system__:
+		1) If we have headquarter addresses for both, and they are the same city 
+		=> very probably real
+	
+		2) Else if the entity connects to other hits at distance x, with x to be established: 
+		For example with x=2, the following would qualify:
+		```
+		WWF <=> Tarbes Trust <=> Red Cross 
+		```
+		=> very probably fake 
+	
+		3) Else, if googling "charity name AND scandal" returns many results
+		=> possibly real
+	
+		4) Else
+		=> undetermined
+		
+* Possible alley to explore: searching for the names of CEOs of charities in the Panama Papers. However, this should be done with caution as human names can often belong to multiple unrelated people and we have no further information about these people. (For example, the top person at Salvation Army's name is David Jeffrey. This is also the name of [multiple people on linkedin](https://www.linkedin.com/pub/dir/david/jeffrey), as well as a [British football manager](https://en.wikipedia.org/wiki/David_Jeffrey).
+
+* Possible alley to explore: use the same methods described above to also search the other leaked datasets, like the Paradise Papers, which are bigger and would probably yield more results.
+
+* Create the data story, complete with profiles of charities that are very probably real account holders (using the extra data scored from the websites) and recommendations of which charities you should probably not give your money to.
 
 
-## Questions for TAa
-* Is it okay for us to use wikipedia independently, or do we have to use the provided database on the cluster?
-* Can we also use the Paradise Papers and other Offshore leaks provided by the ICIJ, or are we limited to the Panama Papers?
+
 
