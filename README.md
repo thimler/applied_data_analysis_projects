@@ -16,7 +16,7 @@ Therefore, we will determine the degree of involvement of charities whose names 
 * Can we classify the charities that actually have offshore accounts as legitimate uses or illegal ones ? 
 * How does this impact charity donations, e.g. what charities can be seen as less trustworthy as a result of this research?
 
-##Project Structure
+## Project Structure
 ```
 * _data
 	* [...]
@@ -53,7 +53,13 @@ Therefore, we will determine the degree of involvement of charities whose names 
 				> functions to scrape the given wikipedia page
 				> analysis of the found data
 	* name_extraction.ipynb
-	* 
+		> Notebook with:
+			> functions to split charities name and remove stop words
+			> functions to search match between leak and charity names
+	* panama_overview.ipynb
+		> Notebook with:
+			> description of Panama Papers dataset
+			> analysis and stat about Panama Papers
 * _temp
 	* [...]
 	
@@ -74,7 +80,7 @@ Therefore, we will determine the degree of involvement of charities whose names 
 			* __Name__: THE INTERNATIONAL RED CROSS OF GENEVA (sic)
 			* __Panamanian Trust__: TARBES TRUST (FIDEICOMISO) (Also representing “WORLD WILDLIFE FUND” and “UNICEF”)
 
-##Further sources: websites
+## Further sources: websites
 * __Wikipedia__:
 	* __Links__:
 		* List of charitable foundations: 
