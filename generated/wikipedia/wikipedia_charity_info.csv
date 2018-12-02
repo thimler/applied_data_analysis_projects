@@ -1,4 +1,4 @@
-,Name,Leader 1,Leader 2,Leader 3,Revenue,Headquarters,Location,Other names,Subsidiaries,Purpose
+,name,Leader 1,Leader 2,Leader 3,Revenue,Headquarters,Location,Other names,Subsidiaries,Purpose
 0,AARP Foundation,Jo Ann Jenkins,Joan R. Ruff,,,"Washington, D.C., U.S.","Offices in all 50 U.S. states, the District of Columbia, Puerto Rico and the U.S. Virgin Islands",American Association of Retired Persons,AARP FoundationAARP Services IncLegal Counsel for the Elderly,
 1,Acorns Children's Hospice,,,,,,,,,To provide palliative care
 2,Action Against Hunger,,,,,"New York, USA; Toronto, Canada; London, UK; Paris, France; Madrid, Spain",,,,To end child malnutrition whilst providing communities with access to safe water and sustainable solutions to hunger.
@@ -49,14 +49,14 @@ Victor J. Menezes, Chairman Emeritus",,,,,"New York, Delhi (India)",,,"Education
 31,Azim Premji Foundation,,,,,,,,,
 32,Baan Gerda,,,,,,,,,
 33,Beckstrand Cancer Foundation,,,,,,,,,
-34,Best Friends Animal Society,Gregory Castle[5],Marc A. Peralta[1],,"$87,144,293[1]",,"Kanab, Utah, U.S.[1]",Best Friends Animal Sanctuary,"Best Friends Productions LLC, 1089 Wykoff LLC, 307 West Broadway LLC, Chuff LLC, Amber Housing LLC, Best Friends Wellness Center Inc[1]","Animal welfare, animal rights"
+34,Best Friends Animal Society,Julie Castle[5],Marc A. Peralta[1],,"$87,144,293[1]",,"Kanab, Utah, U.S.[1]",Best Friends Animal Sanctuary,"Best Friends Productions LLC, 1089 Wykoff LLC, 307 West Broadway LLC, Chuff LLC, Amber Housing LLC, Best Friends Wellness Center Inc[1]","Animal welfare, animal rights"
 35,Bharat Sevashram Sangha,,,,,Kolkata,,,,"Educational, Philanthropic, Religious Studies, Spirituality"
 36,Big Brothers Big Sisters of America,"Pam Iorio,[1] President and CEO",,,,"Tampa, Florida, United States",,,,"Mentorship, education"
 37,Big Brothers Big Sisters of Canada,"W. Matthew Chater, M.Ed.",,,,,Canada,,,Mentoring programs for children and youth
-38,Big Brothers Big Sisters of New York City,Hector Batista,,,,"New York, NY","New York, NY",BBBSA,,Mentoring
+38,Big Brothers Big Sisters of New York City,,,,,"New York, NY","New York, NY",BBBSA,,Mentoring
 39,Bill & Melinda Gates Foundation,Bill Gates (Co-Chair)Melinda Gates (Co-Chair)William H. Gates Sr. (Co-Chair)Susan Desmond-Hellmann (CEO),,,,"Seattle, Washington, US",,William H. Gates Foundation,,"Healthcare, Education, Ending poverty"
 40,Bilqees Sarwar Foundation,,,,,"Lahore, Pakistan",,,,"Healthcare, Education, Ambulance, Humanitarian Aid"
-41,Bloomberg Philanthropies,"Michael R. Bloomberg, founder Patti Harris, CEO",,,,,"New York City, United States of America",,,"Environment, Public Health, the Arts, Government Innovation, Education, Women's Economic Development in Africa"
+41,Bloomberg Philanthropies,"Michael R. Bloomberg, founder Patti Harris, CEO",,,,25 East 78th Street,"New York City, United States of America",,,"Environment, Public Health, the Arts, Government Innovation, Education, Women's Economic Development in Africa"
 42,Born This Way Foundation,,,,"$903,263[2]",,,,,
 43,Boys & Girls Clubs of America,,,,,"Atlanta, Georgia",,,,"""Club programs and services promote and enhance the development of boys and girls by instilling a sense of competence, usefulness, belonging and influence."""
 44,Bread for the World,,,,,,,,,
@@ -156,7 +156,7 @@ Dr. Franz von Däniken
 125,German Foundation for World Population,"Renate Bähr, Executive Director",,,,,"Hannover, Germany",,,"International Development, Healthcare, Capacity building, Ending poverty"
 126,Gill Foundation,,,,,,,,,
 127,Girl Scouts of the USA,Sylvia Acevedo,,,,"New York, New York",United States,,World Association of Girl Guides and Girl Scouts,
-128,GiveIndia,Atul Satija,,,,,"Mumbai, Maharashtra, India",,,
+128,GiveIndia,Atul Satija,,,,,"Bengaluru, Karnataka, India",,,
 129,"The Global Fund to Fight AIDS, Tuberculosis and Malaria","Peter Sands, (Executive Director, March 2018 -)",,,,,"Geneva, Switzerland",,,"Accelerating the end of AIDS, tuberculosis and malaria as epidemics"
 130,GlobalGiving,,,,,,"Washington, D.C., United States",,,
 131,Global Greengrants Fund,,,,,,,,,
@@ -302,79 +302,80 @@ Dr. Roger L. Reep",,,,,"Maitland, Florida, USA",,,The recovery of the manatee sp
 252,Scaife Family Foundation,,,,,,,,,
 253,SCARE for a CURE,,,,,,,,,
 254,Schowalter Foundation,,,,"$1,165,674[1]","Newton, KS, United States",,,,
-255,Silicon Valley Community Foundation,"Greg Avis (Interim President/CEO)  Samuel Johnson, Jr. (Chair of the Board of Directors) [2]",,,$1.4 billion [3],"Mountain View, California",Silicon Valley  United States  International,,,
-256,Simone and Cino Del Duca Foundation,,,,,,,,,
-257,Sir Dorabji Tata and Allied Trusts,,,,,,,,,
-258,SKIP of New York,,,,,,,,,
-259,SmileTrain,Susannah Schaefer,,,,"New York City, New York, United States",,,,
-260,Societat de Beneficència de Naturals de Catalunya,,,,,,"Consulado 68La Havana Vieja,  Cuba",,,
-261,Society of Saint Vincent de Paul,"Fr. Bertin Sanon, R.S.V.",,,,,,,,Sanctification of members through service of the poor[4]
-262,Somaly Mam Foundation,,,,,,,,,
-263,SOS Children's Villages,Siddharta Kaul,Helmut Kutin,,,"Imst, Austria",,SOS,,Humanitarian Services
-264,SOS Children's Villages – UK,,,,,,"Cambridge, United Kingdom",,,Alternative care for children who cannot live with their parents
-265,SOS Children's Villages – USA,,,,,,,,,
-266,Sparebankstiftelsen DnB,André Støylen (CEO),,,,"Oslo, Norway",,,,Holding company
-267,St. Baldrick's Foundation,"Kathleen Ruddy, Executive Director",,,,,"Monrovia, California",,,
-268,St. Jude Children's Research Hospital,,,,,,"262 Danny Thomas Place, Memphis, Tennessee, United States",,,
-269,Starlight Children's Foundation,,,,,"Los Angeles, California",,,,Children's charity
-270,Stichting INGKA Foundation,,,,,Liechtenstein,,,INGKA Holding,Retail
-271,Students Helping Honduras,Shin Fujiyama,,,,"Fredericksburg, VA and El Progreso, Honduras",,SHH,,Humanitarianism
-272,Surdna Foundation,Don Chen,Marc Vincent de VenogeBetsy Fader,,"$86,286,051[1]","New York, NY, United States",,,,
-273,Survivor Corps,,,,,,,,,
-274,Susan G. Komen for the Cure,,,,"$118,392,709[2]","5005 LBJ Freeway, Suite 250Dallas, Texas 75244 United States",,,,
-275,SystemX,,,,,,,,,
-276,Taproot Foundation,,,,,"San Francisco, U.S.",,,,
-277,Thrive Africa,Maxwell Donkor (Country Director),,,,,"Ghana, West Africa",,,"charitable services, sustainable development projects"
-278,Tom Joyner Foundation,,,,,,United States,,,
-279,Toys for Tots,United States Marine Corps Reserve,,,,,"Triangle, Virginia, U.S.",,,
-280,Traffic,"
+255,Serving Charity,,,,,,,,,
+256,Silicon Valley Community Foundation,"Greg Avis (Interim President/CEO)  Samuel Johnson, Jr. (Chair of the Board of Directors) [2]",,,$1.4 billion [3],"Mountain View, California",Silicon Valley  United States  International,,,
+257,Simone and Cino Del Duca Foundation,,,,,,,,,
+258,Sir Dorabji Tata and Allied Trusts,,,,,,,,,
+259,SKIP of New York,,,,,,,,,
+260,SmileTrain,Susannah Schaefer,,,,"New York City, New York, United States",,,,
+261,Societat de Beneficència de Naturals de Catalunya,,,,,,"Consulado 68La Havana Vieja,  Cuba",,,
+262,Society of Saint Vincent de Paul,"Fr. Bertin Sanon, R.S.V.",,,,,,,,Sanctification of members through service of the poor[4]
+263,Somaly Mam Foundation,,,,,,,,,
+264,SOS Children's Villages,Siddharta Kaul,Helmut Kutin,,,"Imst, Austria",,SOS,,Humanitarian Services
+265,SOS Children's Villages – UK,,,,,,"Cambridge, United Kingdom",,,Alternative care for children who cannot live with their parents
+266,SOS Children's Villages – USA,,,,,,,,,
+267,Sparebankstiftelsen DnB,André Støylen (CEO),,,,"Oslo, Norway",,,,Holding company
+268,St. Baldrick's Foundation,"Kathleen Ruddy, Executive Director",,,,,"Monrovia, California",,,
+269,St. Jude Children's Research Hospital,,,,,,"262 Danny Thomas Place, Memphis, Tennessee, United States",,,
+270,Starlight Children's Foundation,,,,,"Los Angeles, California",,,,Children's charity
+271,Stichting INGKA Foundation,,,,,Liechtenstein,,,INGKA Holding,Retail
+272,Students Helping Honduras,Shin Fujiyama,,,,"Fredericksburg, VA and El Progreso, Honduras",,SHH,,Humanitarianism
+273,Surdna Foundation,Don Chen,Marc Vincent de VenogeBetsy Fader,,"$86,286,051[1]","New York, NY, United States",,,,
+274,Survivor Corps,,,,,,,,,
+275,Susan G. Komen for the Cure,,,,"$118,392,709[2]","5005 LBJ Freeway, Suite 250Dallas, Texas 75244 United States",,,,
+276,SystemX,,,,,,,,,
+277,Taproot Foundation,,,,,"San Francisco, U.S.",,,,
+278,Thrive Africa,Maxwell Donkor (Country Director),,,,,"Ghana, West Africa",,,"charitable services, sustainable development projects"
+279,Tom Joyner Foundation,,,,,,United States,,,
+280,Toys for Tots,United States Marine Corps Reserve,,,,,"Triangle, Virginia, U.S.",,,
+281,Traffic,"
 John A Burton, first Director
 Steven Broad, current Executive Director
 ",,,,"Cambridge, UK",,,,"Wildlife Trade, conservation"
-281,Tulsa Community Foundation,Phil LakinCEO,,,,,"Tulsa, Oklahoma",,,
-282,UNICEF,Tore Hattrem,Henrietta H. Fore[1],,,"New York City, New York, United States",,United Nations,,
-283,United Methodist Committee on Relief,Bishop Thomas Bickerton,,,,"458 Ponce De Leon Ave NE, Atlanta, GA 30308","Atlanta, Georgia",Methodist Committee for Overseas Relief,,
-284,United Nations Foundation,,,,"$101,198,453[1]","Washington, D.C., United States",,,,
-285,United States Artists,"Deana Haggag, CEO[1]",,,,,"Chicago, USA",,,American artists
-286,United Way Worldwide,,,,,,,,,
-287,Universal Health Care Foundation of Connecticut,Marian A. Evans,,,"$2,467,029[1]","Meriden, CT, United States",,,,
-288,Vancouver Foundation,"Board Chair, Jason McLean; President & CEO, Kevin McCort",,,,,"Vancouver, BC, Canada",,,Community foundation
-289,Varkey Foundation,"Sunny Varkey, Chairman Vikas Pota, CEO 
+282,Tulsa Community Foundation,Phil LakinCEO,,,,,"Tulsa, Oklahoma",,,
+283,UNICEF,,,,,"New York, USA",,United Nations General Assembly  United Nations Economic and Social Council,,
+284,United Methodist Committee on Relief,Bishop Thomas Bickerton,,,,"458 Ponce De Leon Ave NE, Atlanta, GA 30308","Atlanta, Georgia",Methodist Committee for Overseas Relief,,
+285,United Nations Foundation,,,,"$101,198,453[1]","Washington, D.C., United States",,,,
+286,United States Artists,"Deana Haggag, CEO[1]",,,,,"Chicago, USA",,,American artists
+287,United Way Worldwide,,,,,,,,,
+288,Universal Health Care Foundation of Connecticut,Marian A. Evans,,,"$2,467,029[1]","Meriden, CT, United States",,,,
+289,Vancouver Foundation,"Board Chair, Jason McLean; President & CEO, Kevin McCort",,,,,"Vancouver, BC, Canada",,,Community foundation
+290,Varkey Foundation,"Sunny Varkey, Chairman Vikas Pota, CEO 
 ",,,,London[1],,Varkey GEMS Foundation,,"Education, teacher training"
-290,Veniños,,,,,,,,,
-291,Vietnam Children's Fund,Terry A. Anderson,Kieu Chinh,,,"Unionville, Virginia, United States",,VCF,,
-292,Vietnam Veterans Memorial Fund,,,,,,,,,
-293,Vietnam Veterans of America Foundation,,,,,,,,,
-294,Virtu Foundation,"Curtis Peterson, President",,,"$148,837[1]",,"Charlottesville, Virginia",,,Classical musicMusic educationString instruments
-295,Voluntary Service Overseas,,,,,,Worldwide,,,
-296,Volunteers of America,,,,,,"Headquarters in Alexandria, Virginia",,,
-297,The W. Garfield Weston Foundation,,,,,"Toronto, Canada",Canada,,,"Education, Land Conservation, Science in Canada’s North, Neuroscience and Microbiome Science [1]"
-298,W. K. Kellogg Foundation,,,,,,"Battle Creek, Michigan",W. K. Kellogg Child Welfare Foundation,,A number of topics
-299,The Walter and Duncan Gordon Foundation,,,,,,,,,
-300,Waste No Food,,,,,,,,,
-301,Water Agriculture and Health in Tropical Area,,,,,,,,,
-302,Wellcome Trust,Baroness Eliza Manningham-Buller[1](Chair)Dr Jeremy Farrar[2](Director),,,,"London, NW1United Kingdom","Euston Road,London, NW1",,,Biomedical Research
-303,The Weston Foundation,,,,,,,,,
-304,Wetlands International,,,,,,,,,
-305,Wikimedia Foundation,María Sefidari (Chair of the board)[3]Katherine Maher (Executive director),,,,,"San Francisco, California, U.S.Los Angeles, California, U.S. (registered agent)[2]",WMF,,"Free, open-content, wiki-based Internet projects"
-306,WildAid,Peter Knights,John Baker,,,"333 Pine Street, San Francisco, California, United States",,,,
-307,Wildlife Conservation Society,,,,,,,,,
-308,William and Flora Hewlett Foundation,"Larry Kramer, president",,,"US$526,699,324[1]",,"Menlo Park, California",,,
-309,The Winnipeg Foundation,,,,,,,,,
-310,Woodrow Wilson National Fellowship Foundation,,,,,,,,,
-311,World Association of Girl Guides and Girl Scouts,Ana Maria Mideros,Sarah Nancollas,,,"Pax Lodge, London",150 countries,,,
-312,World Literacy Foundation,"Dr Anthony Cree OAM, Chairman",,,,," Australia, Melbourne Colombia, Manizales United Kingdom, Oxford United States, Grandville",WLF,,"Literacy, EducationChildren's rights"
-313,World Medical Relief,,,,,,,,,
-314,World Scout Foundation,,,,,,,,,
-315,World Transformation Movement,,,,,,,,,
-316,World Vision International,Kevin Jenkins (International President)Ms. Donna Shepherd  (Chairperson Int'l Board),,,,,"Monrovia, California, U.S., 800 West Chestnut Avenue (administrative center, World Vision International Board),  London, U.K. (Executive Office and International Headquarter)",,,"Well being of all people, especially children."
-317,World Wide Fund for Nature,Pavan Sukhdev,"Prince Philip, Duke of Edinburgh",Marco Lambertini,,"Rue Mauverny,Gland, Vaud, Switzerland",Worldwide,WWF,,"
+291,Veniños,,,,,,,,,
+292,Vietnam Children's Fund,Terry A. Anderson,Kieu Chinh,,,"Unionville, Virginia, United States",,VCF,,
+293,Vietnam Veterans Memorial Fund,,,,,,,,,
+294,Vietnam Veterans of America Foundation,,,,,,,,,
+295,Virtu Foundation,"Curtis Peterson, President",,,"$148,837[1]",,"Charlottesville, Virginia",,,Classical musicMusic educationString instruments
+296,Voluntary Service Overseas,,,,,,Worldwide,,,
+297,Volunteers of America,,,,,,"Headquarters in Alexandria, Virginia",,,
+298,The W. Garfield Weston Foundation,,,,,"Toronto, Canada",Canada,,,"Education, Land Conservation, Science in Canada’s North, Neuroscience and Microbiome Science [1]"
+299,W. K. Kellogg Foundation,,,,,,"Battle Creek, Michigan",W. K. Kellogg Child Welfare Foundation,,A number of topics
+300,The Walter and Duncan Gordon Foundation,,,,,,,,,
+301,Waste No Food,,,,,,,,,
+302,Water Agriculture and Health in Tropical Area,,,,,,,,,
+303,Wellcome Trust,Baroness Eliza Manningham-Buller[1](Chair)Dr Jeremy Farrar[2](Director),,,,"London, NW1United Kingdom","Euston Road,London, NW1",,,Biomedical Research
+304,The Weston Foundation,,,,,,,,,
+305,Wetlands International,,,,,,,,,
+306,Wikimedia Foundation,María Sefidari (Chair of the board)[3]Katherine Maher (Executive director),,,,,"San Francisco, California, U.S.Los Angeles, California, U.S. (registered agent)[2]",WMF,,"Free, open-content, wiki-based Internet projects"
+307,WildAid,Peter Knights,John Baker,,,"333 Pine Street, San Francisco, California, United States",,,,
+308,Wildlife Conservation Society,,,,,,,,,
+309,William and Flora Hewlett Foundation,"Larry Kramer, president",,,"US$526,699,324[1]",,"Menlo Park, California",,,
+310,The Winnipeg Foundation,,,,,,,,,
+311,Woodrow Wilson National Fellowship Foundation,,,,,,,,,
+312,World Association of Girl Guides and Girl Scouts,Ana Maria Mideros,Sarah Nancollas,,,"Pax Lodge, London",150 countries,,,
+313,World Literacy Foundation,"Dr Anthony Cree OAM, Chairman",,,,," Australia, Melbourne Colombia, Manizales United Kingdom, Oxford United States, Grandville",WLF,,"Literacy, EducationChildren's rights"
+314,World Medical Relief,,,,,,,,,
+315,World Scout Foundation,,,,,,,,,
+316,World Transformation Movement,,,,,,,,,
+317,World Vision International,Kevin Jenkins (International President)Ms. Donna Shepherd  (Chairperson Int'l Board),,,,,"Monrovia, California, U.S., 800 West Chestnut Avenue (administrative center, World Vision International Board),  London, U.K. (Executive Office and International Headquarter)",,,"Well being of all people, especially children."
+318,World Wide Fund for Nature,Pavan Sukhdev,"Prince Philip, Duke of Edinburgh",Marco Lambertini,,"Rue Mauverny,Gland, Vaud, Switzerland",Worldwide,WWF,,"
 Environmentalism
 Conservation
 Ecology
 "
-318,Wounded Warrior Project,Michael S. Linnington,Charlie Fletcher (Interim COO)Anthony Odierno (Board Chair)Anthony Principi (Advisory Council Chair),,,"Jacksonville, Florida",,,,Veterans services
-319,Wyoming Wildlife Federation,,,,,,,,,
-320,Young Lives,,,,,,,,,
-321,Youth With A Mission,,,,,,,,,
-322,YouthBuild,John Valverde,"Dorothy Stoneman, John Valverde",,,"Somerville, MA",,,,
+319,Wounded Warrior Project,Michael S. Linnington,Charlie Fletcher (Interim COO)Anthony Odierno (Board Chair)Anthony Principi (Advisory Council Chair),,,"Jacksonville, Florida",,,,Veterans services
+320,Wyoming Wildlife Federation,,,,,,,,,
+321,Young Lives,,,,,,,,,
+322,Youth With A Mission,,,,,,,,,
+323,YouthBuild,John Valverde,"Dorothy Stoneman, John Valverde",,,"Somerville, MA",,,,
