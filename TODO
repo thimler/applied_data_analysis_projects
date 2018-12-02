@@ -1,0 +1,11 @@
+
+* Establish matching algorithm
+* Run matching on all 3 charity/ONG datasets and save matches
+* Manually check matching
+
+* Write algorithm that rates likelihood of company presence in Panama:
+* Cross-check addresses of matches
+* Check distance between found shell companies
+
+* Write data story
+* Make graphs
