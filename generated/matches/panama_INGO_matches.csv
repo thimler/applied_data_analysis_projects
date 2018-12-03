@@ -1,10 +1,10 @@
-,ShellName,CharityName
-0,VISION INTERNATIONAL CORP.,World Vision International
-1,VISION INTERNATIONAL CORP.,World Vision International
-2,WORLD VISION LIMITED,World Vision International
-3,WORLD VISION LIMITED,World Vision International
-4,COSPAR LTD.,COSPAR
-5,STREET CHILDREN FOUNDATION,Reggio Children Foundation
-6,WORLD INTERNATIONAL LTD.,World Vision International
-7,WORLD INTERNATIONAL LTD.,World Vision International
-8,CHRISTIAN INTERNATIONAL LTD.,International Christian Concern
+,node_id,ShellName,CharityName
+0,10034270,VISION INTERNATIONAL CORP.,World Vision International
+1,10034270,VISION INTERNATIONAL CORP.,World Vision International
+2,10037228,WORLD VISION LIMITED,World Vision International
+3,10037228,WORLD VISION LIMITED,World Vision International
+4,10083101,COSPAR LTD.,COSPAR
+5,10162813,STREET CHILDREN FOUNDATION,Reggio Children Foundation
+6,10181757,WORLD INTERNATIONAL LTD.,World Vision International
+7,10181757,WORLD INTERNATIONAL LTD.,World Vision International
+8,10181919,CHRISTIAN INTERNATIONAL LTD.,International Christian Concern

@@ -1,43 +1,43 @@
-,ShellName,CharityName
-0,Medical World Limited,World Medical Relief
-1,VISION INTERNATIONAL CORP.,World Vision International
-2,WORLD VISION LIMITED,World Vision International
-3,EAST MEETS WEST LTD.,East Meets West
-4,UNITED STATES LIMITED,United States Artists
-5,CARITAS FOUNDATION,Caritas
-6,MARIE INTERNATIONAL LIMITED,Marie Stopes International
-7,Medical World Limited,World Medical Relief
-8,VILLAGE FOUNDATION,Global Village Foundation
-9,THE CAPRICORN CHILDREN'S FOUNDATION,The Children's Investment Fund Foundation
-10,THE ALEXANDER HERITAGE FOUNDATION,The Heritage Foundation
-11,STREET CHILDREN FOUNDATION,Reggio Children Foundation
-12,THE NEW YORK CITY FOUNDATION,The New Brunswick Innovation Foundation
-13,BENJO EDUCATION FOUNDATION,Legal Education Foundation
-14,WESTON INTERNATIONAL FOUNDATION,Garfield Weston Foundation
-15,WESTON INTERNATIONAL FOUNDATION,The Weston Foundation
-16,THE ALEXANDER HERITAGE FOUNDATION,The Heritage Foundation
-17,THE CREATIVE FUND FOUNDATION,The Children's Investment Fund Foundation
-18,HERITAGE VALUE FOUNDATION,The Heritage Foundation
-19,THE NEW VISION FOUNDATION,The New Brunswick Innovation Foundation
-20,ST. EDMUNDS FOUNDATION,St. Baldrick's Foundation
-21,Widder Education Foundation,Legal Education Foundation
-22,INDIA INVESTMENTS FOUNDATION,American India Foundation
-23,WESTON GROUP FOUNDATION,Garfield Weston Foundation
-24,WESTON GROUP FOUNDATION,The Weston Foundation
-25,VANCOUVER PROPERTY FOUNDATION,Vancouver Foundation
-26,FAMILY FOUNDATION,Scaife Family Foundation
-27,NATIONS FOUNDATION,United Nations Foundation
-28,HIGH BECK FOUNDATION,High Fives Foundation
-29,NET CHILDREN'S FOUNDATION,Starlight Children's Foundation
-30,HERITAGE GLOBAL FOUNDATION,The Heritage Foundation
-31,THE ARCTIC INVESTMENT FOUNDATION,The Children's Investment Fund Foundation
-32,CARTHAGE  FOUNDATION,Carthage Foundation
-33,Foundation For Human Development,Comenius Foundation for Child Development
-34,Foundation For Human Development,Foundation for Child Development
-35,MARIE INTERNATIONAL INC.,Marie Stopes International
-36,COMMUNITY UPLIFTING FOUNDATION,Tulsa Community Foundation
-37,THE TUDOR INVESTMENT FUND LIMITED,The Children's Investment Fund Foundation
-38,THE TRADEWINDS INVESTMENT FOUNDATION,The Children's Investment Fund Foundation
-39,HIGH BECK FOUNDATION,High Fives Foundation
-40,VANCOUVER PROPERTY FOUNDATION,Vancouver Foundation
-41,HERITAGE GLOBAL FOUNDATION,The Heritage Foundation
+,node_id,ShellName,CharityName
+0,10003688,Medical World Limited,World Medical Relief
+1,10034270,VISION INTERNATIONAL CORP.,World Vision International
+2,10037228,WORLD VISION LIMITED,World Vision International
+3,10106174,EAST MEETS WEST LTD.,East Meets West
+4,10081538,UNITED STATES LIMITED,United States Artists
+5,10159381,CARITAS FOUNDATION,Caritas
+6,10134266,MARIE INTERNATIONAL LIMITED,Marie Stopes International
+7,10150136,Medical World Limited,World Medical Relief
+8,10161735,VILLAGE FOUNDATION,Global Village Foundation
+9,10162331,THE CAPRICORN CHILDREN'S FOUNDATION,The Children's Investment Fund Foundation
+10,10162768,THE ALEXANDER HERITAGE FOUNDATION,The Heritage Foundation
+11,10162813,STREET CHILDREN FOUNDATION,Reggio Children Foundation
+12,10163628,THE NEW YORK CITY FOUNDATION,The New Brunswick Innovation Foundation
+13,10164054,BENJO EDUCATION FOUNDATION,Legal Education Foundation
+14,10164621,WESTON INTERNATIONAL FOUNDATION,Garfield Weston Foundation
+15,10164621,WESTON INTERNATIONAL FOUNDATION,The Weston Foundation
+16,10164728,THE ALEXANDER HERITAGE FOUNDATION,The Heritage Foundation
+17,10164958,THE CREATIVE FUND FOUNDATION,The Children's Investment Fund Foundation
+18,10165573,HERITAGE VALUE FOUNDATION,The Heritage Foundation
+19,10165831,THE NEW VISION FOUNDATION,The New Brunswick Innovation Foundation
+20,10165929,ST. EDMUNDS FOUNDATION,St. Baldrick's Foundation
+21,10166344,Widder Education Foundation,Legal Education Foundation
+22,10166406,INDIA INVESTMENTS FOUNDATION,American India Foundation
+23,10166682,WESTON GROUP FOUNDATION,Garfield Weston Foundation
+24,10166682,WESTON GROUP FOUNDATION,The Weston Foundation
+25,10166896,VANCOUVER PROPERTY FOUNDATION,Vancouver Foundation
+26,10167249,FAMILY FOUNDATION,Scaife Family Foundation
+27,10167253,NATIONS FOUNDATION,United Nations Foundation
+28,10167383,HIGH BECK FOUNDATION,High Fives Foundation
+29,10167398,NET CHILDREN'S FOUNDATION,Starlight Children's Foundation
+30,10167679,HERITAGE GLOBAL FOUNDATION,The Heritage Foundation
+31,10168427,THE ARCTIC INVESTMENT FOUNDATION,The Children's Investment Fund Foundation
+32,10168737,CARTHAGE  FOUNDATION,Carthage Foundation
+33,10168786,Foundation For Human Development,Comenius Foundation for Child Development
+34,10168786,Foundation For Human Development,Foundation for Child Development
+35,10169207,MARIE INTERNATIONAL INC.,Marie Stopes International
+36,10169327,COMMUNITY UPLIFTING FOUNDATION,Tulsa Community Foundation
+37,10180475,THE TUDOR INVESTMENT FUND LIMITED,The Children's Investment Fund Foundation
+38,10211286,THE TRADEWINDS INVESTMENT FOUNDATION,The Children's Investment Fund Foundation
+39,10212007,HIGH BECK FOUNDATION,High Fives Foundation
+40,10212191,VANCOUVER PROPERTY FOUNDATION,Vancouver Foundation
+41,10213977,HERITAGE GLOBAL FOUNDATION,The Heritage Foundation
