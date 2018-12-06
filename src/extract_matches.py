@@ -14,7 +14,7 @@ from nltk.corpus import stopwords
 
 #spark
 import findspark
-findspark.init('/opt/spark/spark-2.3.2-bin-hadoop2.7/')
+findspark.init(r'C:\Users\Ruijia\Spark')
 
 from pyspark.sql import *
 from pyspark.sql.functions import *
@@ -106,29 +106,32 @@ def check_for_words(charity, shell, stop_words, tuning):
             and (count_random_matches/len_shell >= percentage))
 
 def extract_matches_between(leak, charity, sharp):
+def extract_matches_between(leak, charity, sharp):
     
     stop_words = init_stopwords()
     
     charity_location = '../generated/' + charity + '/' + charity + '_charity_info.csv'
-    leak_location = '../data/' + leak + '/' + leak + '_papers.nodes.entity.csv'
+    leak_location = '../data/' + leak + '/' + leak + '*.nodes.entity.csv'
     
     leak_data = spark.read.csv(leak_location, header=True)
 
     charity_data = spark.read.csv(charity_location, header=True)
     
-    charity_names = charity_data.select('name').selectExpr('name as CharityName')
-    shell_names = leak_data.select('name').selectExpr('name as ShellName')
+    charity_names = charity_data.select('name', 'Headquarters').withColumnRenamed('name', 'CharityName')
+    shell_names = leak_data.select('node_id','name').withColumnRenamed('name', 'ShellName')
     
     shells_vs_charities = shell_names.crossJoin(charity_names)
     
-    filtered_names = shells_vs_charities.rdd.filter(lambda r: check_for_words(r[0], r[1], stop_words, sharp) == True)
+    filtered_names = shells_vs_charities.rdd.filter(lambda r: check_for_words(r[1], r[2], stop_words, sharp) == True)
     
-    matches = filtered_names.toDF()
     
-    matches.repartition(1)\
-    .write.format("csv")\
-    .mode('overwrite').save('../generated/' + leak +'_'+ charity +'_matches.csv')
     
+    matches = pd.DataFrame(filtered_names.collect(), columns=['node_id','ShellName','CharityName','CharityHeadquarters'])
+
+    
+    matches.to_csv('../generated/matches/' + leak +'_'+ charity +'_matches.csv')
+    
+
 import sys
 
 leak = sys.argv[1]
