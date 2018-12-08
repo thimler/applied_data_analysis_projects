@@ -8,12 +8,12 @@ Most charities are non-profit voluntaries association with a purpose to serve th
 
 Additionally, it has come out that many [shell companies](https://www.reuters.com/article/us-panama-tax-charities/aid-agencies-fear-damage-to-reputation-as-red-cross-appears-in-panama-papers-idUSKCN0X828W) created by Mossack Fonseca were named after charities with which they had no connection. This of course can put the reputations of perfectly transparent charities at risk.
 
-Therefore, we will determine the degree of involvement of charities whose names turn up in the publicly accessible Panama Papers database.
+Therefore, we will determine the degree of involvement of charities whose names turn up in the publicly accessible Panama Papers database. We will also extend our seatch into data leaks
+prior and later to the Panama Papers (Paradise Papers, the Bahamas Leaks, and the Offshore leaks).
     
 ## Research questions
-* What charities show up in the panama papers ?
+* What charities show up in the Panama Papers (and other leaks)?
 * Can we establish a scale of the probability that a found company actually represents a given charity against the probability that its name was stolen ?
-* Can we classify the charities that actually have offshore accounts as legitimate uses or illegal ones ? 
 * How does this impact charity donations, e.g. what charities can be seen as less trustworthy as a result of this research?
 
 ## Project Structure
@@ -69,9 +69,9 @@ Therefore, we will determine the degree of involvement of charities whose names 
 * __Panama Papers Dataset__:
 	* __Goal__: 
 		* Find companies listed under the official names of charities, or variations on their names, and classify them into “real” or “name stolen” categories based on an analysis of the information given about them (addresses, country, etc...)
-		* Find out if certain Panamanian firms are connected to more “charities” (real or names stolen) 
+		* Find out if certain trusts and firms are connected to more “charities” (real or names stolen) 
 	
-	* __Database__: The data provided by the ICIJ (International Consortium of Investigative Journalists), representing a small subset of the Panama Papers, which has been cleaned of information such as bank accounts, email exchanges and financial transactions. (https://www.occrp.org/en/panamapapers/database)
+	* __Database__: The data provided by the ICIJ (International Consortium of Investigative Journalists), representing a small subset of the Panama Papers, which has been cleaned of information such as bank accounts, email exchanges, or financial transactions. (https://www.occrp.org/en/panamapapers/database)
 	* __Example__:
 		* __The Charity__:
 			* __Name__: International Federation of Red Cross and Red Crescent Societies
@@ -79,7 +79,16 @@ Therefore, we will determine the degree of involvement of charities whose names 
 		* __The Mossack Fonseca Client__:
 			* __Name__: THE INTERNATIONAL RED CROSS OF GENEVA (sic)
 			* __Panamanian Trust__: TARBES TRUST (FIDEICOMISO) (Also representing “WORLD WILDLIFE FUND” and “UNICEF”)
-
+* __Other Leaks Datasets__:
+	* __Composition__: Paradise Papers, Bahamas Leaks, and Offshore Leaks.
+	* __Database__: They are also provided by the ICIj and are structured in a smilar way as the Panama Papers Dataset (for the exception of the Bahamas Leaks that is slightly different).
+	They represent a small subset of the original Leaks, which have also been cleaned of information such as banck accounts, email exchanges, or financial transactions. (https://www.occrp.org/en/panamapapers/database)
+* __Structure__: The datasets are organized as graph databases using nodes representing the different actors linked by edges.
+	* __The officers__: People or corporations that are directors, shareholders, or beneficiaries of offshore companies.
+	* __The entities__: The offshore companies.
+	* __The intermediaries__: People and organizations, such as banks, that created offshore companies or trusts.
+	* __The addresses__: Any address connected to any officers, entities, or intermediaries.
+	
 ## Further sources: websites
 * __Wikipedia__:
 	* __Links__:
@@ -108,46 +117,59 @@ Therefore, we will determine the degree of involvement of charities whose names 
 * Analysis of the Panama Papers, for a better understanding of their structure. A small-scale local test has shown that we will easily be able to cross check names. (This will be completed for milestone 3.)
 * Set up of a number of methods to find name variants in the Panama papers, such as splitting the names of charities into separate words, removing the stop words like "the" or "for" and computing the percentage of correspondence between them and the Mossack Fonsecca entities.
 
-## A list of internal milestones to accomplish for milestone 3
-* Systematically cross-check charity names and variants of them in the Panama Papers "entity" files using the cluster (while there are fewer than 1000 charities to be tested, the sheer size of the leaks makes running any cross-check of the name variants locally too time consuming.)
-* Analyse the hits of the cross-check to determine whether they are random or genuine (this will have to be done manually, as it would take too much time to teach a train a classifer to determine whether a variant of a name is similar enough not to be random. But based on our manual tests on the ICIJ website, which gives us a search engine for the papers, we are anticipating that there will not be too many hits.)
+## A list of internal milestones accomplished for milestone 3
+* Systematically cross-check charity names and variants of them in the leaked papers "entity" and "officer" files.
+* Inspect and correct the hits of the cross-check to determine whether they are random or genuine (this will have to be done manually, as it would take too much time to teach a train a classifer to determine whether a variant of a name is similar enough not to be random. But based on our manual tests on the ICIJ website, which gives us a search engine for the papers, we are anticipating that there will not be too many hits.)
 
 	* Step 1:  Check the number of significant words in a charity name that match a Panama Papers entity's name
 	
-		*International Federation Red Cross Red Crescent Societies => THE INTERNATIONAL RED CROSS OF GENEVA*
+		*International Federation Red Cross Red Crescent Societies =(compared to)=> THE INTERNATIONAL RED CROSS OF GENEVA*
 	
-	(Note that stopwords were removed from the charity name)
+	(Note that stopwords hits are counted separatly from significant words hits)
+	(Note that we tailored an already existing list of stopwords)
+	(Note there should be at least one hit that is not a stopword)
 			
 		Matches: International + Red + Cross
 		Hits: 3 hits and 3/7 words correspondence
+		Stop Words Hits: 1 (international)
 		Percentage: 3/7 for the charity, 3/6 for the entity
+		==> These are the same entities
 		
 	The threshold can be varied to increase or decrease the number of hits depending on output.
 	
-	* Step 2: Check that this is not a random hit
+	* Step 2: Check using Graduate Student Descent that this is not a random hit
 	
-	* Step 3: Is this a real charity's account or a fake entity using its name? 
+		One of the names contains a rare word or name > hit
+		The match clearly happened on the most generic of terms (stopword) > random
+		Matches happen of "out of context words" (high beck vs high fives) > random
+ 	
+	* Step 3: Find the firsts connections of entities
+	
+		Extraction of all intermediaries linked to an entity.
+		Search for overlap between intermediaries of each entity to find potential second degree connections between charities.
+	
+	* Step 4: Compare addresses between actors involved with the shell companies and the charities
+	
+		Among first level connections, extract the ones with a registered address.
+		Compare these addresses with the corresponding charity headquarter address.
+		
+	* Step 5: Is this a real charity's account or a fake entity using its name? 
 	
 		__Proposed scoring system__:
 		1) If we have headquarter addresses for both, and they are the same city 
-		=> very probably real
+		=> Probability ++
 	
-		2) Else if the entity connects to other hits at distance x, with x to be established: 
-		For example with x=2, the following would qualify:
+		2) Else if the entity connects to other hits at distance 2 nodes: 
+		For example:
 		```
 		WWF <=> Tarbes Trust <=> Red Cross 
 		```
-		=> very probably fake 
+		=> Probability +/-
 	
-		3) Else, if googling "charity name AND scandal" returns many results
-		=> possibly real
-	
-		4) Else
-		=> undetermined
+		3) Check on the News if the company have been involved in scandals
+		=> Probability +/-
 		
 * Possible alley to explore: searching for the names of CEOs of charities in the Panama Papers. However, this should be done with caution as human names can often belong to multiple unrelated people and we have no further information about these people. (For example, the top person at Salvation Army's name is David Jeffrey. This is also the name of [multiple people on linkedin](https://www.linkedin.com/pub/dir/david/jeffrey), as well as a [British football manager](https://en.wikipedia.org/wiki/David_Jeffrey).
-
-* Possible alley to explore: use the same methods described above to also search the other leaked datasets, like the Paradise Papers, which are bigger and would probably yield more results.
 
 * Create the data story, complete with profiles of charities that are very probably real account holders (using the extra data scored from the websites) and recommendations of which charities you should probably not give your money to.
 
