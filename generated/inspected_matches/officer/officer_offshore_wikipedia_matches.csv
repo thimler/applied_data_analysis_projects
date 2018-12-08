@@ -1,28 +1,10 @@
 ,node_id,ShellName,CharityName,CharityHeadquarters
 0,109972,World Vision                            ,World Vision International,
-1,88175,Sandy Lee, Sandy,
 2,105366,American Heart Association,American Heart Association,
-3,93208,SANDY HOKIJANTO, Sandy,
 4,102141,The Salvation Army                      ,The Salvation Army,
-5,102164,International Red Cross,American Red Cross,"Washington, D.C., U.S."
+"5,102164,International Red Cross,American Red Cross,""Washington, D.C., U.S."""
 6,113530,Sandy Dean                              , Sandy,
-7,121744,Greenpeace International                ,Greenpeace,"Amsterdam, Netherlands"
-8,"Martin Coleman""",USA,Operation USA,
-9,21145,Georgia Marathefti, Georgia,
-10,21145,Georgia Marathefti, Georgia,
-11,1952,Georgia Konstantinou, Georgia,
-12,1952,Georgia Konstantinou, Georgia,
-13,37113,National Wildlife Federation            ,Wyoming Wildlife Federation,
-14,24731,Georgia Constantinou, Georgia,
-15,24731,Georgia Constantinou, Georgia,
-16,24735,Georgia Constantinou, Georgia,
-17,24735,Georgia Constantinou, Georgia,
-18,23908,Georgia Kaminioti, Georgia,
-19,23908,Georgia Kaminioti, Georgia,
+"7,121744,Greenpeace International                ,Greenpeace,""Amsterdam, Netherlands"""
 20,37736,Catholic Charities                      ,Catholic Charities USA,
-21,25862,Georgia Georgiou, Georgia,
-22,25862,Georgia Georgiou, Georgia,
-23,65616,The Settlors Children,Free the Children,"Toronto, Ontario, Canada"
 24,65616,The Settlors Children,Save the Children,
-25,60344,Save the Children's Fund                ,The Children's Investment Fund Foundation,
-26,107786,Unicef                                  ,UNICEF,"New York, USA"
+"26,107786,Unicef                                  ,UNICEF,""New York, USA"""
