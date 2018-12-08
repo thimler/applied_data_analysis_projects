@@ -1,6 +1,5 @@
 ,node_id,ShellName,CharityName,CharityHeadquarters
 0,109972,World Vision                            ,World Vision International,
 1,109972,World Vision                            ,World Vision International,
-2,121744,Greenpeace International                ,Greenpeace,"Amsterdam, Netherlands"
-3,65616,The Settlors Children,Save the Children,
-4,61034,Amnesty International                   ,Amnesty International,"London, WC1United Kingdom"
+"2,121744,Greenpeace International                ,Greenpeace,""Amsterdam, Netherlands"""
+"4,61034,Amnesty International                   ,Amnesty International,""London, WC1United Kingdom"""

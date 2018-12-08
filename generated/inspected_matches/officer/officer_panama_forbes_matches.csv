@@ -1,9 +1,3 @@
 ,node_id,ShellName,CharityName,CharityHeadquarters
-0,12028260,BANK OF NEW YORK,UJA/Federation of New York,"New York, New York"
-1,12032292,ROBIN HOOD HOLDINGS,Robin Hood Foundation,"New York, New York"
-2,12136888,Positive Industry Foundation,Entertainment Industry Foundation,"Los Angeles, California"
-3,12169719,Positive Industry Foundation,Entertainment Industry Foundation,"Los Angeles, California"
-4,12170868,POSITIVE INDUSTRY FOUNDATION,Entertainment Industry Foundation,"Los Angeles, California"
-5,12172194,POSITIVE INDUSTRY FOUNDATION,Entertainment Industry Foundation,"Los Angeles, California"
-6,12190556,POSITIVE INDUSTRY FOUNDATION,Entertainment Industry Foundation,"Los Angeles, California"
-7,13007414,WORLD WILDLIFE FUND,World Wildlife Fund,"Washington, District of Columbia"
+"1,12032292,ROBIN HOOD HOLDINGS,Robin Hood Foundation,""New York, New York"""
+"7,13007414,WORLD WILDLIFE FUND,World Wildlife Fund,""Washington, District of Columbia"""
