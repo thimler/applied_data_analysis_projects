@@ -1,6 +1,3 @@
-
-* Manually check matching
-
 * Write algorithm that rates likelihood of company presence in Panama:
 * Cross-check addresses of matches
 * Check distance between found shell companies
