@@ -1,32 +1,74 @@
 ,node_id,ShellName,CharityName,CharityHeadquarters
+0,80121170,Save the Children,Free the Children,"Toronto, Ontario, Canada"
 1,80121170,Save the Children,Save the Children,
 2,80124101,Shing - LI Ka,Li Ka Shing Foundation,
+3,80032067,Awana Clubs International,Lions Clubs International,"Oak Brook, Illinois, U.S."
 4,80048595,Children's Hospital Medical Center,Children's National Medical Center,
 5,80066325,Ford Foundation,Ford Foundation,
+6,80070206,Global Resource Fund,Global Greengrants Fund,
 7,80078753,Howard Hughes Medical Institute,Howard Hughes Medical Institute,
+8,80079548,Huffines Children's Trust,Children's Development Trust,
 9,80084243,The J. Paul Getty Trust,J. Paul Getty Trust,
 10,80088383,Kresge Foundation,The Kresge Foundation,
 11,80093532,Li - Ka Shing,Li Ka Shing Foundation,
 12,80118041,The Robert Wood Johnson Foundation,Robert Wood Johnson Foundation,
 13,80118042,Robert Wood Johnson University Hospital,Robert Wood Johnson Foundation,
 14,80118044,Robert Wood & Algar Wood,Robert Wood Johnson Foundation,
-"16,80132138,The Duke Endowment,The Duke Endowment,""Charlotte, NC, United States"""
+15,80131987,The California Endowment,The Duke Endowment,"Charlotte, NC, United States"
+16,80132138,The Duke Endowment,The Duke Endowment,"Charlotte, NC, United States"
 17,80132353,The Kresge Foundation,The Kresge Foundation,
 18,80132633,The Robert Wood Johnson Foundation,Robert Wood Johnson Foundation,
 19,80145944,World Vision International,World Vision International,
 20,80060918,Jersey Society for the Prevention of Cruelty to Animals,Royal Society for the Prevention of Cruelty to Animals,
 21,80061102,Royal Society for the Prevention of Cruelty to Animals,Royal Society for the Prevention of Cruelty to Animals,
-"22,80061215,British Red Cross,American Red Cross,""Washington, D.C., U.S."""
-"23,80080733,International Red Cross,American Red Cross,""Washington, D.C., U.S."""
-"24,80081153,INTERNATIONAL RED CROSS,American Red Cross,""Washington, D.C., U.S."""
-"25,80081281,International Red Cross,American Red Cross,""Washington, D.C., U.S."""
+22,80061215,British Red Cross,American Red Cross,"Washington, D.C., U.S."
+23,80080733,International Red Cross,American Red Cross,"Washington, D.C., U.S."
+24,80081153,INTERNATIONAL RED CROSS,American Red Cross,"Washington, D.C., U.S."
+25,80081281,International Red Cross,American Red Cross,"Washington, D.C., U.S."
 26,80104536,Manx Society for Prevention of Cruelty to Animals (MSPCA),Royal Society for the Prevention of Cruelty to Animals,
 27,80120531,THE SALVATION ARMY,The Salvation Army,
 28,80132671,The Salvation Army,The Salvation Army,
-"29,80134988,International Red Cross,American Red Cross,""Washington, D.C., U.S."""
-"30,80138587,UNICEF,UNICEF,""New York, USA"""
+29,80134988,International Red Cross,American Red Cross,"Washington, D.C., U.S."
+30,80138587,UNICEF,UNICEF,"New York City, USA"
+31,86011460,"LAMBRIANIDES, GEORGIA", Georgia,
+32,86011460,"LAMBRIANIDES, GEORGIA", Georgia,
+33,86015952,"WILLEMSEN, SANDY", Sandy,
+34,110000500,SANDY HAZEL-ANNE, Sandy,
+35,110017970,GILO SANDY, Sandy,
+36,110119641,HAMILTON GEORGIA, Georgia,
+37,110119641,HAMILTON GEORGIA, Georgia,
+38,110088469,GRAVEL GEORGIA, Georgia,
+39,110088469,GRAVEL GEORGIA, Georgia,
+40,56000372,GEORGIA BASSIAKOU, Georgia,
+41,56000372,GEORGIA BASSIAKOU, Georgia,
 42,56003990,MERCY SHIPS INTERNATIONAL,Mercy International Foundation,
+43,56002747,GEORGIA YAKOVIDOU, Georgia,
+44,56002747,GEORGIA YAKOVIDOU, Georgia,
+45,56006323,THE BANK OF NEW YORK,SKIP of New York,
 46,56006047,SOCIETY OF LADIES OF CHARITY OF ST. VINCENT DE PAULE,Society of Saint Vincent de Paul,
 47,56015006,LIBRA PRIVATE FOUNDATION,Libra Foundation,
-"49,56040661,THE BUSH FOUNDATION,Bush Foundation,""Saint Paul, MN, United States"""
+48,56035863,STICHTING PREDANTIC FOUNDATION,Stichting INGKA Foundation,Liechtenstein
+49,56040661,THE BUSH FOUNDATION,Bush Foundation,"Saint Paul, MN, United States"
+50,56066722,STICHTING GREATPLACE FOUNDATION,Stichting INGKA Foundation,Liechtenstein
+51,56067383,GEORGIA MICHAILIDOU, Georgia,
+52,56067383,GEORGIA MICHAILIDOU, Georgia,
+53,56073098,GEORGIA MARTINI, Georgia,
+54,56073098,GEORGIA MARTINI, Georgia,
+55,56070300,GEORGIA VARVATE, Georgia,
+56,56070300,GEORGIA VARVATE, Georgia,
+57,56091674,GEORGIA GEORGIOU, Georgia,
+58,56091674,GEORGIA GEORGIOU, Georgia,
+59,56101722,SAINT PAUL FOUNDATION,Saint Camillus Foundation,
+60,56106872,GEORGIA PSAROPOULOU, Georgia,
+61,56106872,GEORGIA PSAROPOULOU, Georgia,
+62,56101726,SHARED COMMUNITY FOUNDATION,Tulsa Community Foundation,
+63,56096646,GEORGIA MELI, Georgia,
+64,56096646,GEORGIA MELI, Georgia,
+65,56096340,GEORGIA KAMINIOTI, Georgia,
+66,56096340,GEORGIA KAMINIOTI, Georgia,
+67,56070299,GEORGIA VARVATES, Georgia,
+68,56070299,GEORGIA VARVATES, Georgia,
+69,56087126,THE MEDITERRANEAN INVESTMENT FUND LIMITED,The Children's Investment Fund Foundation,
+70,56091836,GEORGIA HADJISAVVA, Georgia,
+71,56091836,GEORGIA HADJISAVVA, Georgia,
 72,56095879,ROBERT BOSCH GMBH,Robert Bosch Stiftung,
