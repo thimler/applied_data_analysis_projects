@@ -2,19 +2,19 @@
 # Title: Hands up! This is a Charity!
 
 ## Abstract
-In 2015, an anonymous whistleblower leaked over 11.5 millions of financial documents from the Panamanian law firm Mossack Fonseca, the biggest data leak in History. Known as the [Panama Papers](https://www.theguardian.com/news/2016/apr/03/what-you-need-to-know-about-the-panama-papers), these documents revealed the  financial client informations of more than 200,000 offshores entities and exposed dozens of public officials, politicians, corporations, and charities. We would like to investigate the story of these charities.
+In 2015, an anonymous whistleblower leaked over 11.5 million financial documents from the Panamanian law firm Mossack Fonseca, the biggest data leak in History. Known as the [Panama Papers](https://www.theguardian.com/news/2016/apr/03/what-you-need-to-know-about-the-panama-papers), these documents revealed the  financial client informations of more than 200,000 offshores entities and exposed dozens of public officials, politicians, corporations, and charities. We would like to investigate the story of these charities.
 
 Most charities are non-profit voluntaries association with a purpose to serve the common good. Their main source of income comes from donations, thus their success is directly linked to their reputation. How can we tell if a charity is worthy of our money?
 
 Additionally, it has come out that many [shell companies](https://www.reuters.com/article/us-panama-tax-charities/aid-agencies-fear-damage-to-reputation-as-red-cross-appears-in-panama-papers-idUSKCN0X828W) created by Mossack Fonseca were named after charities with which they had no connection. This of course can put the reputations of perfectly transparent charities at risk.
 
 Therefore, we will determine the degree of involvement of charities whose names turn up in the publicly accessible Panama Papers database. We will also extend our seatch into data leaks
-prior and later to the Panama Papers (Paradise Papers, the Bahamas Leaks, and the Offshore leaks).
+prior and later to the Panama Papers (the Paradise Papers, the Bahamas Leaks, and the Offshore leaks).
     
 ## Research questions
 * What charities show up in the Panama Papers (and other leaks)?
 * Can we establish a scale of the probability that a found company actually represents a given charity against the probability that its name was stolen ?
-* How does this impact charity donations, e.g. what charities can be seen as less trustworthy as a result of this research?
+* What charities can be seen as less trustworthy as a result of this research?
 
 ## Project Structure
 ```
@@ -79,15 +79,28 @@ prior and later to the Panama Papers (Paradise Papers, the Bahamas Leaks, and th
 		* __The Mossack Fonseca Client__:
 			* __Name__: THE INTERNATIONAL RED CROSS OF GENEVA (sic)
 			* __Panamanian Trust__: TARBES TRUST (FIDEICOMISO) (Also representing “WORLD WILDLIFE FUND” and “UNICEF”)
+			
+			
 * __Other Leaks Datasets__:
-	* __Composition__: Paradise Papers, Bahamas Leaks, and Offshore Leaks.
-	* __Database__: They are also provided by the ICIj and are structured in a smilar way as the Panama Papers Dataset (for the exception of the Bahamas Leaks that is slightly different).
+
+	* __Composition__: 
+	
+	Paradise Papers, Bahamas Leaks, and Offshore Leaks.
+	
+	* __Database__: 
+	They are also provided by the ICIj and are structured in a smilar way as the Panama Papers Dataset (for the exception of the Bahamas Leaks that is slightly different).
 	They represent a small subset of the original Leaks, which have also been cleaned of information such as banck accounts, email exchanges, or financial transactions. (https://www.occrp.org/en/panamapapers/database)
-* __Structure__: The datasets are organized as graph databases using nodes representing the different actors linked by edges.
-	* __The officers__: People or corporations that are directors, shareholders, or beneficiaries of offshore companies.
-	* __The entities__: The offshore companies.
-	* __The intermediaries__: People and organizations, such as banks, that created offshore companies or trusts.
-	* __The addresses__: Any address connected to any officers, entities, or intermediaries.
+
+	* __Structure__: 
+The datasets are organized as graph databases using nodes representing the different actors linked by edges.
+		* __The officers__: 
+	People or corporations that are directors, shareholders, or beneficiaries of offshore companies.
+		* __The entities__: 
+	The offshore companies.
+		* __The intermediaries__: 
+	People and organizations, such as banks, that created offshore companies or trusts.
+		* __The addresses__:
+	 Any address connected to any officers, entities, or intermediaries.
 	
 ## Further sources: websites
 * __Wikipedia__:
@@ -118,60 +131,99 @@ prior and later to the Panama Papers (Paradise Papers, the Bahamas Leaks, and th
 * Set up of a number of methods to find name variants in the Panama papers, such as splitting the names of charities into separate words, removing the stop words like "the" or "for" and computing the percentage of correspondence between them and the Mossack Fonsecca entities.
 
 ## A list of internal milestones accomplished for milestone 3
-* Systematically cross-check charity names and variants of them in the leaked papers "entity" and "officer" files.
-* Inspect and correct the hits of the cross-check to determine whether they are random or genuine (this will have to be done manually, as it would take too much time to teach a train a classifer to determine whether a variant of a name is similar enough not to be random. But based on our manual tests on the ICIJ website, which gives us a search engine for the papers, we are anticipating that there will not be too many hits.)
+* Systematically cross-checking charity names and variants of them in the leaked papers "entity" and "officer" files, using the following algorithm (shown here simplified). Using trial-and-error and checking the results for known matches (Amnesty International, the Red Cross, Acumen and WWF), this was found to have a good recall (all the known matches present in the returned values) and a fair precision (the number of wrong matches was small enough to be removed by hand, as explained in the next step).
 
-	* Step 1:  Check the number of significant words in a charity name that match a Panama Papers entity's name
-	
-		*International Federation Red Cross Red Crescent Societies =(compared to)=> THE INTERNATIONAL RED CROSS OF GENEVA*
-	
-	(Note that stopwords hits are counted separatly from significant words hits)
-	(Note that we tailored an already existing list of stopwords)
-	(Note there should be at least one hit that is not a stopword)
-			
-		Matches: International + Red + Cross
-		Hits: 3 hits and 3/7 words correspondence
-		Stop Words Hits: 1 (international)
-		Percentage: 3/7 for the charity, 3/6 for the entity
-		==> These are the same entities
-		
-	The threshold can be varied to increase or decrease the number of hits depending on output.
-	
-	* Step 2: Check using Graduate Student Descent that this is not a random hit
-	
-		One of the names contains a rare word or name > hit
-		The match clearly happened on the most generic of terms (stopword) > random
-		Matches happen of "out of context words" (high beck vs high fives) > random
- 	
-	* Step 3: Find the firsts connections of entities
-	
-		Extraction of all intermediaries linked to an entity.
-		Search for overlap between intermediaries of each entity to find potential second degree connections between charities.
-	
-	* Step 4: Compare addresses between actors involved with the shell companies and the charities
-	
-		Among first level connections, extract the ones with a registered address.
-		Compare these addresses with the corresponding charity headquarter address.
-		
-	* Step 5: Is this a real charity's account or a fake entity using its name? 
-	
-		__Proposed scoring system__:
-		1) If we have headquarter addresses for both, and they are the same city 
-		=> Probability ++
-	
-		2) Else if the entity connects to other hits at distance 2 nodes: 
-		For example:
-		```
-		WWF <=> Tarbes Trust <=> Red Cross 
-		```
-		=> Probability +/-
-	
-		3) Check on the News if the company have been involved in scandals
-		=> Probability +/-
-		
-* Possible alley to explore: searching for the names of CEOs of charities in the Panama Papers. However, this should be done with caution as human names can often belong to multiple unrelated people and we have no further information about these people. (For example, the top person at Salvation Army's name is David Jeffrey. This is also the name of [multiple people on linkedin](https://www.linkedin.com/pub/dir/david/jeffrey), as well as a [British football manager](https://en.wikipedia.org/wiki/David_Jeffrey).
+```python
+def check_for_words(charity, shell, stop_words):
+    
+	 threshold = 0.6
+	    
+	 for word in charity:
+ 		if word in shell:
+		    count_random_matches += 1
+		    
+		if word in stop_words:
+			stop_word_random_matches += 1
+                
+	#if only stopwords match, not valid
+	if count_random_matches - stop_word_random_matches < 1:
+	    return False
 
-* Create the data story, complete with profiles of charities that are very probably real account holders (using the extra data scored from the websites) and recommendations of which charities you should probably not give your money to.
+	#"Family foundations are tricky -> make sure those two words are not the only matching parts"
+	if ('family' in shell and 'foundation' in shell 
+	    and 'family' in charity and 'foundation' in charity 
+	    and count_random_matches < 3 
+	    and len(shell) > 2 and len(charity) > 2):
+	    return False
+
+	#If there's only one word, it has to be a match
+    	if len(charity) == 1 or len(shell) == 1:
+        	return (np.abs(len(charity) - len(shell)) < 2  and count_random_matches == 1)
+        
+	#Matches must be above a certain threshold
+	return ((count_random_matches/len(charity) >= threshold) and (count_random_matches/len(shell) >= threshold))
+
+```
+
+
+* Inspecting and correcting the hits of the cross-check to determine whether they are random or genuine (this is done manually, as the filtered dataset only contains a few hundred matches, so it is faster and more accurate to resort to the expertise humans possess in natural language processing than to any training tool.
+
+	
+* Finding matched shells connected by a single entity by extracting all nodes at distance 1 of the found shell companies and creating graphs to view the clusters. Whenever a cluster exists with a shell that is clearly just a fake charity, we can lower the probability that the other connected nodes are real charities.
+
+On the contrary, a set of potentially real charities might indicate an intermediary specialized in catering to these organizations and increases the chance of realness of the other connected shells.
+	
+	
+* Comparing addresses between actors involved with the shell companies and the charities. By extracting registered addresses from first level connections, we could compare these with the corresponding charity headquarter address (if known). If the addresses match, there is an excellent chance that these two groups are one and the same.
+		
+* Evaluating the matches using the above analysis: Is this a real charity's account or a fake entity using its name? 
+
+	__Scoring system:__
+	
+	__Values:__ {Probable, Undetermined, Doubtful}
+	
+	__Attribution:__
+	
+	
+	1. If we have headquarter addresses for both, and they are the same city 
+	=> Probable
+	
+	2. Else if the entity connects to a node with the score "Probable" 		
+	=> Probable
+
+	3. Else if the entity connects to a node with the score "Doubtful" 		
+	=> Doubtful
+	For example:
+	```
+	WWF <=> Tarbes Trust <=> Red Cross 
+	```
+
+	4. Else 													
+	=> Undetermined
+		
+
+* Creating the data story
+
+## Work Distribution
+
+ * __Ruijia:__
+ 	* Web-scraping INGO
+ 	* Designing name-matching algorithm
+ 	* Manually filtering reduced match dataset
+ 	* Computing address-matching
+ 	* Designing data story
+ * __Sabrina:__
+ 	* Web-scraping Forbes and Wikipedia
+ 	* Designing name-matching algorithm
+ 	* Manually filtering reduced match dataset
+ 	* Computing graphs
+ 	* Writing Readme 
+ * __Theo:__
+ 	* Analysing the leak datasets
+ 	* Computing address-matching
+ 	* Scoring matches
+ 	* Writing Readme
+ 	* Writing data story
 
 
 
