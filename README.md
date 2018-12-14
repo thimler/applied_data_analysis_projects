@@ -21,29 +21,48 @@ prior and later to the Panama Papers (the Paradise Papers, the Bahamas Leaks, an
 * _data
 	* [...]
 		>Original csv files from the leaks
-* _doc
-	*  [...]
 * _generated
-	*_forbes
-		* Forbes_top_100_US_Charities.csv
-			> Scraped charity info from Forbes article
-	* _INGO
-		* wikipedia_INGO_info.csv
-			> Scraped INGO info from wikipeda pages
-		* wikipedia_INGO_links.csv
-			> Scraped INGO wikipeida links
-			
-	* _wikipedia
-		* Forbes_top_100_US_Charities.csv
-			> Scraped charity info from Forbes article
-		* wikipedia_charity_info.csv
-			> Scraped charity info from wikipedia pages
-		* wikipeida_charity_links.csv
-			> Scraped charity wikipedia links
+	* _scraping
+		*_forbes
+			* Forbes_top_100_US_Charities.csv
+				> Scraped charity info from Forbes article
+		* _INGO
+			* wikipedia_INGO_info.csv
+				> Scraped INGO info from wikipeda pages
+			* wikipedia_INGO_links.csv
+				> Scraped INGO wikipeida links
+		
+		* _wikipedia
+			* Forbes_top_100_US_Charities.csv
+				> Scraped charity info from Forbes article
+			* wikipedia_charity_info.csv
+				> Scraped charity info from wikipedia pages
+			* wikipeida_charity_links.csv
+				> Scraped charity wikipedia links
+	*_ matches
+		*_entity
+			> match files connecting charities to shells marked as entities in the leaks 
+		*_officer
+			> match files connecting charities to shells marked as officers in the leaks 
+	*_ inspected_matches
+		*_entity
+			>manually inspected entity match files 
+		*_officer
+			>manually inspected officer match files
+	* _map
+		* _connections
+			> matches joined by leak source
+		*_degree_1
+			> matches and their 1-degree connections in the leaks
 
 * _results
-	* [...]
+	* _graphs
+		> saved graphs of matches and their 1-degree connections with various levels of filtering
 * _src
+	* panama_overview.ipynb
+		> Notebook with:
+			> description of Panama Papers dataset
+			> analysis and stat about Panama Papers
 	* _ web_scraping
 		* Forbes_list_scraping.ipynb
 			> Notebook with:
@@ -53,21 +72,25 @@ prior and later to the Panama Papers (the Paradise Papers, the Bahamas Leaks, an
 			> Notebook with:
 				> functions to scrape the given wikipedia page
 				> analysis of the found data
-	* _INGO
 		* Wikipedia_INGO_scraping.ipynb
-			> Notebook with:
-				> functions to scrape the given wikipedia page
-				> analysis of the found data
-	* name_extraction.ipynb
+				> Notebook with:
+					> functions to scrape the given wikipedia page
+					> analysis of the found data
+	* Analysis.ipynb
+		> Notebook generating and analysing
+			> Address pairs belonging to shell-charity matches
+			> Graphs displaying the structure of matched shells in the leaks
+	* Connections.ipynb
+		> Notebook creating files containing information about 
+			> joining matches by leak
+			> connecting matched shells to nodes one degree away in the leaks
+	* name_ extraction_spark.ipynb
 		> Notebook with:
-			> functions to split charities name and remove stop words
-			> functions to search match between leak and charity names
-	* panama_overview.ipynb
-		> Notebook with:
-			> description of Panama Papers dataset
-			> analysis and stat about Panama Papers
-* _temp
-	* [...]
+			> functions to search for matches between leaked shell company names and charity names
+	* _network
+		> files for creation of the data story interactive networks
+	* http_server.py
+		> data story set-up file
 	
 ```
 ## Dataset
@@ -182,6 +205,12 @@ def check_for_words(charity, shell, stop_words):
 		
 
 * Creating the data story
+
+.. speaking of which
+
+## Link to Data Story
+
+ https://charity-leaks.github.io/
 
 ## Work Distribution
 
