@@ -13,32 +13,38 @@ prior and later to the Panama Papers (the Paradise Papers, the Bahamas Leaks, an
     
 ## Research questions
 * What charities show up in the Panama Papers (and other leaks)?
-* Can we establish a scale of the probability that a found company actually represents a given charity against the probability that its name was stolen ?
-* What charities can be seen as less trustworthy as a result of this research?
+* Do charities use their actual real addresses when registering in a tax haven?
+* Is there a structure to the way charities set up in tax havens? Do they generally turn to the same companies? Are there companies in tax havens specialized in charities?
 
 ## Project Structure
 ```
 * _data
 	* [...]
+		>Original csv files from the leaks
 * _doc
 	*  [...]
 * _generated
-	* _charities
+	*_forbes
+		* Forbes_top_100_US_Charities.csv
+			> Scraped charity info from Forbes article
+	* _INGO
+		* wikipedia_INGO_info.csv
+			> Scraped INGO info from wikipeda pages
+		* wikipedia_INGO_links.csv
+			> Scraped INGO wikipeida links
+			
+	* _wikipedia
 		* Forbes_top_100_US_Charities.csv
 			> Scraped charity info from Forbes article
 		* wikipedia_charity_info.csv
 			> Scraped charity info from wikipedia pages
 		* wikipeida_charity_links.csv
 			> Scraped charity wikipedia links
-	* _INGO
-		* wikipedia_INGO_info.csv
-			> Scraped INGO info from wikipeda pages
-		* wikipedia_INGO_links.csv
-			> Scraped INGO wikipeida links
+
 * _results
 	* [...]
 * _src
-	* _charities
+	* _ web_scraping
 		* Forbes_list_scraping.ipynb
 			> Notebook with:
 				> functions to scrape the given forbes article
@@ -169,37 +175,10 @@ def check_for_words(charity, shell, stop_words):
 * Inspecting and correcting the hits of the cross-check to determine whether they are random or genuine (this is done manually, as the filtered dataset only contains a few hundred matches, so it is faster and more accurate to resort to the expertise humans possess in natural language processing than to any training tool.
 
 	
-* Finding matched shells connected by a single entity by extracting all nodes at distance 1 of the found shell companies and creating graphs to view the clusters. Whenever a cluster exists with a shell that is clearly just a fake charity, we can lower the probability that the other connected nodes are real charities.
+* Finding matched shells connected by a single entity by extracting all nodes at distance 1 of the found shell companies and creating graphs to view the clusters, to better understand how charities (or fake shells using charity names) relate to each other.
 
-On the contrary, a set of potentially real charities might indicate an intermediary specialized in catering to these organizations and increases the chance of realness of the other connected shells.
-	
 	
 * Comparing addresses between actors involved with the shell companies and the charities. By extracting registered addresses from first level connections, we could compare these with the corresponding charity headquarter address (if known). If the addresses match, there is an excellent chance that these two groups are one and the same.
-		
-* Evaluating the matches using the above analysis: Is this a real charity's account or a fake entity using its name? 
-
-	__Scoring system:__
-	
-	__Values:__ {Probable, Undetermined, Doubtful}
-	
-	__Attribution:__
-	
-	
-	1. If we have headquarter addresses for both, and they are the same city 
-	=> Probable
-	
-	2. Else if the entity connects to a node with the score "Probable" 		
-	=> Probable
-
-	3. Else if the entity connects to a node with the score "Doubtful" 		
-	=> Doubtful
-	For example:
-	```
-	WWF <=> Tarbes Trust <=> Red Cross 
-	```
-
-	4. Else 													
-	=> Undetermined
 		
 
 * Creating the data story
