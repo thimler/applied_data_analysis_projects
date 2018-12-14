@@ -1,45 +1,58 @@
 ,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,Match
 0,14014962,,3; av. Pasteur; L-2311- Luxembourg,LUX,Luxembourg,Panama Papers,The Panama Papers  data is current through 2015,,,,,,,,,,,False
 1,14022183,,"79 Deep Water Bay Road, Hong Kong (W.E.F. 01/10/2013)",HKG,Hong Kong,Panama Papers,The Panama Papers  data is current through 2015,,,,,,,,,,,False
-2,11000795,OCTOPUS MANAGEMENT LIMITED,GBR,United Kingdom,ACTIVE,Panama Papers,The Panama Papers  data is current through 2015,,,,,,,,,,,False
-3,11001975,NAUTILUS FIDUCIARY  ASIA  LIMITED,HKG,Hong Kong,ACTIVE,Panama Papers,The Panama Papers  data is current through 2015,,,,,,,,,,,False
-4,11001994,HAWKSFORD INTERNATIONAL,JEY;GBR,Jersey;United Kingdom,ACTIVE,Panama Papers,The Panama Papers  data is current through 2015,,,,,,,,,,,False
-5,11002442,CENTURION MANAGEMENT SERVICES LTD.,,,,Panama Papers,The Panama Papers  data is current through 2015,,,,,,,,,,,False
-6,11002845,ORION TRUST (JERSEY) LIMITED,JEY;GBR,Jersey;United Kingdom,SUSPENDED,Panama Papers,The Panama Papers  data is current through 2015,,,,,,,,,,,False
-7,11003170,CHERN HORNG JYN,BRA,Brazil,ACTIVE,Panama Papers,The Panama Papers  data is current through 2015,,,,,,,,,,,False
-8,11003237,NEW WORLD TRUSTEES (JERSEY) LIMITED,JEY;GBR,Jersey;United Kingdom,SUSPENDED,Panama Papers,The Panama Papers  data is current through 2015,,,,,,,,,,,False
-9,11006258,ANDREAS SCHULMEYER,HKG,Hong Kong,ACTIVE,Panama Papers,The Panama Papers  data is current through 2015,,,,,,,,,,,False
-10,11010460,BOND & COMPANY,CAN,Canada,ACTIVE,Panama Papers,The Panama Papers  data is current through 2015,,,,,,,,,,,False
-11,11010583,"VAN VUUREN, ANTHONY JANSE",MCO,Monaco,ACTIVE,Panama Papers,The Panama Papers  data is current through 2015,,,,,,,,,,,False
-12,11010643,LEGAL CONSULTING SERVICES LIMITED,RUS,Russia,ACTIVE,Panama Papers,The Panama Papers  data is current through 2015,,,,,,,,,,,False
-13,11010768,"NOOR, ISHAQUE",ARE,United Arab Emirates,SUSPENDED,Panama Papers,The Panama Papers  data is current through 2015,,,,,,,,,,,False
-14,11011539,MOSSACK FONSECA & CO. (U.K.) LIMITED,GBR,United Kingdom,ACTIVE,Panama Papers,The Panama Papers  data is current through 2015,,,,,,,,,,,False
-15,11012621,GESTINA MANAGEMENT LTD.,LIE,Liechtenstein,ACTIVE,Panama Papers,The Panama Papers  data is current through 2015,,,,,,,,,,,False
-16,10034270,VISION INTERNATIONAL CORP.,NIUE,Niue,BLZ,Belize,22-NOV-1996,06-NOV-1997,22-JUL-1998,,001365,Defaulted,,Mossack Fonseca,Panama Papers,The Panama Papers data is current through 2015,,True
-17,10037228,WORLD VISION LIMITED,NIUE,Niue,JEY,Jersey,07-APR-1998,16-DEC-2003,07-DEC-2003,,002990,Defaulted,,Mossack Fonseca,Panama Papers,The Panama Papers data is current through 2015,,True
-18,10059052,FONZWICK DEVELOPMENTS LTD.,BVI,British Virgin Islands,HKG,Hong Kong,17-AUG-1990,29-OCT-2014,30-APR-2015,,33680,Dissolved,,Mossack Fonseca,Panama Papers,The Panama Papers data is current through 2015,,False
-19,10059536,INGELSA LTD.,BVI,British Virgin Islands,DOM,Dominican Republic,26-MAY-1992,,,,63049,Active,,Mossack Fonseca,Panama Papers,The Panama Papers data is current through 2015,,False
-20,10106174,EAST MEETS WEST LTD.,BVI,British Virgin Islands,HKG,Hong Kong,04-MAY-2004,,,,595001,Active,,Mossack Fonseca,Panama Papers,The Panama Papers data is current through 2015,,True
-21,10083101,COSPAR LTD.,BVI,British Virgin Islands,LIE,Liechtenstein,22-JUL-1999,02-MAY-2007,30-APR-2007,,335550,Defaulted,,Mossack Fonseca,Panama Papers,The Panama Papers data is current through 2015,,True
-22,10159381,CARITAS FOUNDATION,PMA,Panama,GBR,United Kingdom,19-MAY-2000,23-FEB-2001,19-AUG-2001,,30,Dissolved,,Mossack Fonseca,Panama Papers,The Panama Papers data is current through 2015,,True
-23,10134266,MARIE INTERNATIONAL LIMITED,BVI,British Virgin Islands,MCO,Monaco,15-APR-2009,,31-OCT-2013,,,Defaulted,,Mossack Fonseca,Panama Papers,The Panama Papers data is current through 2015,,True
-24,10161735,VILLAGE FOUNDATION,PMA,Panama,BLZ,Belize,14-MAR-2001,04-JUL-2005,30-JUN-2005,,05,Defaulted,,Mossack Fonseca,Panama Papers,The Panama Papers data is current through 2015,,True
-25,10164621,WESTON INTERNATIONAL FOUNDATION,PMA,Panama,GBR,United Kingdom,15-JAN-2007,17-JUL-2009,15-JUL-2009,,97,Defaulted,,Mossack Fonseca,Panama Papers,The Panama Papers data is current through 2015,,True
-26,10166682,WESTON GROUP FOUNDATION,PMA,Panama,BRA,Brazil,22-JUL-2008,24-JAN-2013,15-JAN-2013,,00,Defaulted,,Mossack Fonseca,Panama Papers,The Panama Papers data is current through 2015,,True
-27,10166896,VANCOUVER PROPERTY FOUNDATION,PMA,Panama,JEY,Jersey,30-OCT-2003,31-DEC-2013,15-JAN-2016,,34,Dissolved,,Mossack Fonseca,Panama Papers,The Panama Papers data is current through 2015,,True
-28,10168737,CARTHAGE  FOUNDATION,PMA,Panama,JEY,Jersey,24-MAR-2004,05-JUN-2008,15-JUL-2009,,72,Dissolved,,Mossack Fonseca,Panama Papers,The Panama Papers data is current through 2015,,True
-29,10169207,MARIE INTERNATIONAL INC.,BAH,Bahamas,RUS,Russia,14-SEP-1993,05-JAN-1995,31-DEC-1994,,17086-B,Defaulted,,Mossack Fonseca,Panama Papers,The Panama Papers data is current through 2015,,True
-30,10170677,BOWEN ENTERPRISES S.A.,PMA,Panama,HKG,Hong Kong,22-OCT-1986,24-JUL-2013,15-JAN-2015,,5,Dissolved,,Mossack Fonseca,Panama Papers,The Panama Papers data is current through 2015,,False
-31,10181757,WORLD INTERNATIONAL LTD.,BAH,Bahamas,ARE,United Arab Emirates,08-FEB-2001,,31-DEC-2002,,118547 B,Defaulted,,Mossack Fonseca,Panama Papers,The Panama Papers data is current through 2015,,True
-32,10181919,CHRISTIAN INTERNATIONAL LTD.,BAH,Bahamas,HKG,Hong Kong,11-JUL-1997,03-JAN-2013,31-DEC-2012,,"62,102 B",Defaulted,,Mossack Fonseca,Panama Papers,The Panama Papers data is current through 2015,,True
-33,10212191,VANCOUVER PROPERTY FOUNDATION,PMA,Panama,PAN,Panama,30-OCT-2003,18-JUN-2008,31-DEC-2005,,,Inactivated,,Mossack Fonseca,Panama Papers,The Panama Papers data is current through 2015,,True
-34,12013331,THE BEARER,,,Panama Papers,The Panama Papers data is current through 2015,,,,,,,,,,,,False
-35,12048846,LI KA SHING,,,Panama Papers,The Panama Papers data is current through 2015,,,,,,,,,,,,True
-36,12096931,LARRY STUBBLEFIELD,USA,United States,Panama Papers,The Panama Papers data is current through 2015,,,,,,,,,,,,False
-37,12111264,FORD FOUNDATION,LUX,Luxembourg,Panama Papers,The Panama Papers data is current through 2015,,,,,,,,,,,,True
-38,12128743,LI KA SHING,HKG,Hong Kong,Panama Papers,The Panama Papers data is current through 2015,,,,,,,,,,,,True
-39,12164726,AZTEC HOLDINGS LIMITED,KNA,Saint Kitts and Nevis,Panama Papers,The Panama Papers data is current through 2015,,,,,,,,,,,,False
-40,12176209,MEDIMEX INTERNATIONAL LIMITED,GGY,Guernsey,Panama Papers,The Panama Papers data is current through 2015,,,,,,,,,,,,False
-41,12190239,MEDIMEX INTERNATIONAL LIMITED,GGY,Guernsey,Panama Papers,The Panama Papers data is current through 2015,,,,,,,,,,,,False
-42,12220057,SMS LTD,GGY,Guernsey,Panama Papers,The Panama Papers data is current through 2015,,,,,,,,,,,,False
-43,12220058,GCS LTD,GGY,Guernsey,Panama Papers,The Panama Papers data is current through 2015,,,,,,,,,,,,False
+2,11000269,"ZOLTY, LIC. ANDRE",CHE,Switzerland,ACTIVE,Panama Papers,The Panama Papers  data is current through 2015,,,,,,,,,,,False
+3,11000795,OCTOPUS MANAGEMENT LIMITED,GBR,United Kingdom,ACTIVE,Panama Papers,The Panama Papers  data is current through 2015,,,,,,,,,,,False
+4,11001975,NAUTILUS FIDUCIARY  ASIA  LIMITED,HKG,Hong Kong,ACTIVE,Panama Papers,The Panama Papers  data is current through 2015,,,,,,,,,,,False
+5,11001994,HAWKSFORD INTERNATIONAL,JEY;GBR,Jersey;United Kingdom,ACTIVE,Panama Papers,The Panama Papers  data is current through 2015,,,,,,,,,,,False
+6,11002442,CENTURION MANAGEMENT SERVICES LTD.,,,,Panama Papers,The Panama Papers  data is current through 2015,,,,,,,,,,,False
+7,11002845,ORION TRUST (JERSEY) LIMITED,JEY;GBR,Jersey;United Kingdom,SUSPENDED,Panama Papers,The Panama Papers  data is current through 2015,,,,,,,,,,,False
+8,11003170,CHERN HORNG JYN,BRA,Brazil,ACTIVE,Panama Papers,The Panama Papers  data is current through 2015,,,,,,,,,,,False
+9,11003237,NEW WORLD TRUSTEES (JERSEY) LIMITED,JEY;GBR,Jersey;United Kingdom,SUSPENDED,Panama Papers,The Panama Papers  data is current through 2015,,,,,,,,,,,False
+10,11006258,ANDREAS SCHULMEYER,HKG,Hong Kong,ACTIVE,Panama Papers,The Panama Papers  data is current through 2015,,,,,,,,,,,False
+11,11010460,BOND & COMPANY,CAN,Canada,ACTIVE,Panama Papers,The Panama Papers  data is current through 2015,,,,,,,,,,,False
+12,11010583,"VAN VUUREN, ANTHONY JANSE",MCO,Monaco,ACTIVE,Panama Papers,The Panama Papers  data is current through 2015,,,,,,,,,,,False
+13,11010643,LEGAL CONSULTING SERVICES LIMITED,RUS,Russia,ACTIVE,Panama Papers,The Panama Papers  data is current through 2015,,,,,,,,,,,False
+14,11010768,"NOOR, ISHAQUE",ARE,United Arab Emirates,SUSPENDED,Panama Papers,The Panama Papers  data is current through 2015,,,,,,,,,,,False
+15,11011539,MOSSACK FONSECA & CO. (U.K.) LIMITED,GBR,United Kingdom,ACTIVE,Panama Papers,The Panama Papers  data is current through 2015,,,,,,,,,,,False
+16,11012290,MOSSFON MANAGERS LTD.,BHS,Bahamas,ACTIVE,Panama Papers,The Panama Papers  data is current through 2015,,,,,,,,,,,False
+17,11012621,GESTINA MANAGEMENT LTD.,LIE,Liechtenstein,ACTIVE,Panama Papers,The Panama Papers  data is current through 2015,,,,,,,,,,,False
+18,11012911,OLGA SANTINI,,,,Panama Papers,The Panama Papers  data is current through 2015,,,,,,,,,,,False
+19,10034270,VISION INTERNATIONAL CORP.,NIUE,Niue,BLZ,Belize,22-NOV-1996,06-NOV-1997,22-JUL-1998,,001365,Defaulted,,Mossack Fonseca,Panama Papers,The Panama Papers data is current through 2015,,True
+20,10037228,WORLD VISION LIMITED,NIUE,Niue,JEY,Jersey,07-APR-1998,16-DEC-2003,07-DEC-2003,,002990,Defaulted,,Mossack Fonseca,Panama Papers,The Panama Papers data is current through 2015,,True
+21,10059052,FONZWICK DEVELOPMENTS LTD.,BVI,British Virgin Islands,HKG,Hong Kong,17-AUG-1990,29-OCT-2014,30-APR-2015,,33680,Dissolved,,Mossack Fonseca,Panama Papers,The Panama Papers data is current through 2015,,False
+22,10059536,INGELSA LTD.,BVI,British Virgin Islands,DOM,Dominican Republic,26-MAY-1992,,,,63049,Active,,Mossack Fonseca,Panama Papers,The Panama Papers data is current through 2015,,False
+23,10106174,EAST MEETS WEST LTD.,BVI,British Virgin Islands,HKG,Hong Kong,04-MAY-2004,,,,595001,Active,,Mossack Fonseca,Panama Papers,The Panama Papers data is current through 2015,,True
+24,10064709,RELAX LIMITED,BVI,British Virgin Islands,GGY,Guernsey,17-AUG-1993,24-MAR-2008,30-APR-2009,,93257,Relocated in new jurisdiction,,Mossack Fonseca,Panama Papers,The Panama Papers data is current through 2015,,False
+25,10082326,TARBES TRUST  (FIDEICOMISO),PMA,Panama,JEY,Jersey,23-MAY-1985,27-JUN-1994,23-AUG-1986,,,Dissolved,,Mossack Fonseca,Panama Papers,The Panama Papers data is current through 2015,,False
+26,10083101,COSPAR LTD.,BVI,British Virgin Islands,LIE,Liechtenstein,22-JUL-1999,02-MAY-2007,30-APR-2007,,335550,Defaulted,,Mossack Fonseca,Panama Papers,The Panama Papers data is current through 2015,,True
+27,10159381,CARITAS FOUNDATION,PMA,Panama,GBR,United Kingdom,19-MAY-2000,23-FEB-2001,19-AUG-2001,,30,Dissolved,,Mossack Fonseca,Panama Papers,The Panama Papers data is current through 2015,,True
+28,10134266,MARIE INTERNATIONAL LIMITED,BVI,British Virgin Islands,MCO,Monaco,15-APR-2009,,31-OCT-2013,,,Defaulted,,Mossack Fonseca,Panama Papers,The Panama Papers data is current through 2015,,True
+29,10161735,VILLAGE FOUNDATION,PMA,Panama,BLZ,Belize,14-MAR-2001,04-JUL-2005,30-JUN-2005,,05,Defaulted,,Mossack Fonseca,Panama Papers,The Panama Papers data is current through 2015,,True
+30,10164621,WESTON INTERNATIONAL FOUNDATION,PMA,Panama,GBR,United Kingdom,15-JAN-2007,17-JUL-2009,15-JUL-2009,,97,Defaulted,,Mossack Fonseca,Panama Papers,The Panama Papers data is current through 2015,,True
+31,10164728,THE ALEXANDER HERITAGE FOUNDATION,PMA,Panama,BHS,Bahamas,29-JUL-2005,11-MAY-2009,15-JAN-2010,,70,Defaulted,,Mossack Fonseca,Panama Papers,The Panama Papers data is current through 2015,,True
+32,10165573,HERITAGE VALUE FOUNDATION,PMA,Panama,CHE,Switzerland,16-JAN-2004,,,,03,Active,,Mossack Fonseca,Panama Papers,The Panama Papers data is current through 2015,,True
+33,10166682,WESTON GROUP FOUNDATION,PMA,Panama,BRA,Brazil,22-JUL-2008,24-JAN-2013,15-JAN-2013,,00,Defaulted,,Mossack Fonseca,Panama Papers,The Panama Papers data is current through 2015,,True
+34,10166896,VANCOUVER PROPERTY FOUNDATION,PMA,Panama,JEY,Jersey,30-OCT-2003,31-DEC-2013,15-JAN-2016,,34,Dissolved,,Mossack Fonseca,Panama Papers,The Panama Papers data is current through 2015,,True
+35,10167253,NATIONS FOUNDATION,PMA,Panama,BLZ,Belize,22-SEP-1999,02-AUG-2002,22-DEC-2001,,86,Defaulted,,Mossack Fonseca,Panama Papers,The Panama Papers data is current through 2015,,True
+36,10167679,HERITAGE GLOBAL FOUNDATION,PMA,Panama,BHS,Bahamas,22-MAY-2006,17-JUL-2015,15-JUL-2015,,36,Defaulted,,Mossack Fonseca,Panama Papers,The Panama Papers data is current through 2015,,True
+37,10168737,CARTHAGE  FOUNDATION,PMA,Panama,JEY,Jersey,24-MAR-2004,05-JUN-2008,15-JUL-2009,,72,Dissolved,,Mossack Fonseca,Panama Papers,The Panama Papers data is current through 2015,,True
+38,10169207,MARIE INTERNATIONAL INC.,BAH,Bahamas,RUS,Russia,14-SEP-1993,05-JAN-1995,31-DEC-1994,,17086-B,Defaulted,,Mossack Fonseca,Panama Papers,The Panama Papers data is current through 2015,,True
+39,10170677,BOWEN ENTERPRISES S.A.,PMA,Panama,HKG,Hong Kong,22-OCT-1986,24-JUL-2013,15-JAN-2015,,5,Dissolved,,Mossack Fonseca,Panama Papers,The Panama Papers data is current through 2015,,False
+40,10181757,WORLD INTERNATIONAL LTD.,BAH,Bahamas,ARE,United Arab Emirates,08-FEB-2001,,31-DEC-2002,,118547 B,Defaulted,,Mossack Fonseca,Panama Papers,The Panama Papers data is current through 2015,,True
+41,10181919,CHRISTIAN INTERNATIONAL LTD.,BAH,Bahamas,HKG,Hong Kong,11-JUL-1997,03-JAN-2013,31-DEC-2012,,"62,102 B",Defaulted,,Mossack Fonseca,Panama Papers,The Panama Papers data is current through 2015,,True
+42,10212191,VANCOUVER PROPERTY FOUNDATION,PMA,Panama,PAN,Panama,30-OCT-2003,18-JUN-2008,31-DEC-2005,,,Inactivated,,Mossack Fonseca,Panama Papers,The Panama Papers data is current through 2015,,True
+43,10213977,HERITAGE GLOBAL FOUNDATION,PMA,Panama,PAN,Panama,22-MAY-2006,22-JUL-2015,15-JUL-2008,,,Defaulted,,Mossack Fonseca,Panama Papers,The Panama Papers data is current through 2015,,True
+44,12013331,THE BEARER,,,Panama Papers,The Panama Papers data is current through 2015,,,,,,,,,,,,False
+45,12032292,ROBIN HOOD HOLDINGS,,,Panama Papers,The Panama Papers data is current through 2015,,,,,,,,,,,,True
+46,12048846,LI KA SHING,,,Panama Papers,The Panama Papers data is current through 2015,,,,,,,,,,,,True
+47,12096931,LARRY STUBBLEFIELD,USA,United States,Panama Papers,The Panama Papers data is current through 2015,,,,,,,,,,,,False
+48,12111264,FORD FOUNDATION,LUX,Luxembourg,Panama Papers,The Panama Papers data is current through 2015,,,,,,,,,,,,True
+49,12128743,LI KA SHING,HKG,Hong Kong,Panama Papers,The Panama Papers data is current through 2015,,,,,,,,,,,,True
+50,12164726,AZTEC HOLDINGS LIMITED,KNA,Saint Kitts and Nevis,Panama Papers,The Panama Papers data is current through 2015,,,,,,,,,,,,False
+51,12176209,MEDIMEX INTERNATIONAL LIMITED,GGY,Guernsey,Panama Papers,The Panama Papers data is current through 2015,,,,,,,,,,,,False
+52,12190239,MEDIMEX INTERNATIONAL LIMITED,GGY,Guernsey,Panama Papers,The Panama Papers data is current through 2015,,,,,,,,,,,,False
+53,12220057,SMS LTD,GGY,Guernsey,Panama Papers,The Panama Papers data is current through 2015,,,,,,,,,,,,False
+54,12220058,GCS LTD,GGY,Guernsey,Panama Papers,The Panama Papers data is current through 2015,,,,,,,,,,,,False
+55,13007414,WORLD WILDLIFE FUND,,,Panama Papers,The Panama Papers data is current through 2015,,,,,,,,,,,,True
+56,13002333,UNICEF,,,Panama Papers,The Panama Papers data is current through 2015,,,,,,,,,,,,True

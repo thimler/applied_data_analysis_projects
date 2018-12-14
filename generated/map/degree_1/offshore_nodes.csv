@@ -5,73 +5,101 @@
 3,264050,,"Company Incorporations Asia Limited Suite 14F Ladoll-J No. 831  Xin Zha Road Shanghai, 200041 P.R. China ***invoices in separate envelope***",CHN,China,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,False
 4,264051,,"Company Kit Limited Unit A, 6/F Shun On Comm Bldg. 112-114 Des Voeux Road C., Hong Kong  SAR",HKG,Hong Kong,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,False
 5,268974,,"""Hill Consulting Ltd. """"Moscow - City"""" Business Centre 10 Testovskaya Str.", Severnaya Tower, 11th Floor, Moscow 123317," Russia""",RUS,,,,,,,,,,False
-6,49684,Equity Trust (Samoa) Limited,WSM,Samoa,,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,False
-7,54662,Portcullis TrustNet (BVI) Limited,THA;VGB;IDN;SGP,Thailand;British Virgin Islands;Indonesia;Singapore,,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,False
-8,123290,Company Incorporations Asia Limited,XXX,Not identified,,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,False
-9,119709,ATC Primasia Limited,HKG,Hong Kong,,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,False
-10,290197,NetIncorp.com Corporation,VGB,British Virgin Islands,,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,False
-11,290441,Diana Leng,USA,United States,,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,False
-12,295468,Sandy Wu,TWN,Taiwan,,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,False
-13,296942,Malkin & Maxwell LLP,SGP,Singapore,,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,False
-14,297026,Wan-Shin Certified Public Accounting Firm - ????????,TWN,Taiwan,,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,False
-15,294890,Portcullis Fund Administration (S) Pte. Ltd,SGP,Singapore,,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,False
-16,298073,Hill Consulting Ltd.,RUS,Russia,,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,False
-17,297687,Company Kit Limited,HKG,Hong Kong,,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,False
-18,147116,INTERNATIONAL MEDICAL CORPORATION,BVI,British Virgin Islands,VGB,British Virgin Islands,15-DEC-2005,,,,689130,Struck / Defunct / Deregistered,Standard International Company,Portcullis Trustnet,Offshore Leaks,The Offshore Leaks data is current through 2010,,True
-19,174703,VISION INTERNATIONAL LIMITED,SAM,Samoa,WSM,Samoa,01-APR-2005,,,,20666/05,Active,Standard International Company,Portcullis Trustnet,Offshore Leaks,The Offshore Leaks data is current through 2010,,True
-20,169213,Friends of Assisi Trust,COOK,Cook Islands,XXX,Not identified,28-JUN-1995,,,,2118/95,Struck / Defunct / Deregistered,Cook Islands Asset Protection Trust - 3520A,Portcullis Trustnet,Offshore Leaks,The Offshore Leaks data is current through 2010,,False
-21,169289,Herman Silver International Trust,COOK,Cook Islands,XXX,Not identified,28-JAN-1994,,,,1531/94,Struck / Defunct / Deregistered,Cook Islands Trust,Portcullis Trustnet,Offshore Leaks,The Offshore Leaks data is current through 2010,,False
-22,158540,WORLD VISION CORP.,SAM,Samoa,WSM,Samoa,24-APR-2008,,,,37416/08,Active,Standard International Company,Portcullis Trustnet,Offshore Leaks,The Offshore Leaks data is current through 2010,,True
-23,186740,Sandy Wu,XXX,Undetermined,XXX,Not identified,,,,,,,Client Sundry Account,Portcullis Trustnet,Offshore Leaks,The Offshore Leaks data is current through 2010,This is not an offshore entity even though it was logged as such in original database ICIJ received. It isi an internal account created by the agent to record miscellaneous charges of an officer or intermediary,True
-24,166497,Crystal Global Fund,XXX,"""Recorded in leaked files as """"fund""""""",CYM,Cayman Islands,06-NOV-2007,,,,CR198533,Active,Mutual Fund Manager,Portcullis Trustnet,Offshore Leaks,The Offshore Leaks data is current through 2010,,True
-25,164742,Crystal Global Fund,CAYMN,Cayman,CYM,Cayman Islands,06-NOV-2007,,,,CR198533,Active,Mutual Fund,Portcullis Trustnet,Offshore Leaks,The Offshore Leaks data is current through 2010,,True
-26,168995,Captive Insurance Trust,COOK,Cook Islands,XXX,Not identified,05-MAY-1993,,,,1257/93,Un Registered,Cook Islands Trust,Portcullis Trustnet,Offshore Leaks,The Offshore Leaks data is current through 2010,,False
-27,190568,International Medical Fund,XXX,Undetermined,HKG;XXX,Hong Kong;Not identified,12-APR-2005,,,,00000,Active,Trust,Commonwealth Trust Limited,Offshore Leaks,The Offshore Leaks data is current through 2010,,True
-28,197748,EAST MEETS WEST INTERNATIONAL LIMITED,XXX,Undetermined,CHN;VGB,China;British Virgin Islands,02-MAR-2006,,,,1013455,Transferred OUT,Business Company Limited by Shares,Commonwealth Trust Limited,Offshore Leaks,The Offshore Leaks data is current through 2010,,True
-29,208672,Adra Limited,XXX,Undetermined,VGB;RUS,British Virgin Islands;Russia,05-JUN-2007,,,,1408767,Dead,Business Company Limited by Shares,Commonwealth Trust Limited,Offshore Leaks,The Offshore Leaks data is current through 2010,,True
-30,158169,WORLD VISION LIMITED,SAM,Samoa,WSM,Samoa,19-MAR-2008,,,,36954/08,Active,Standard International Company,Portcullis Trustnet,Offshore Leaks,The Offshore Leaks data is current through 2010,,True
-31,169460,Care Trust,COOK,Cook Islands,XXX,Not identified,10-JUN-1998,,,,3349/98,Struck / Defunct / Deregistered,Cook Islands Trust,Portcullis Trustnet,Offshore Leaks,The Offshore Leaks data is current through 2010,,True
-32,170507,The Wexford Trust,COOK,Cook Islands,COK,Cook Islands,04-MAY-2001,,,,4223/2001,Struck / Defunct / Deregistered,Cook Islands Asset Protection Trust - 3520A,Portcullis Trustnet,Offshore Leaks,The Offshore Leaks data is current through 2010,,False
-33,109972,World Vision                            ,XXX,Not identified,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,True
-34,87806,"CHEN, Joan-Yi",USA,United States,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
-35,92722,"CHUNG, AI-CHING",TWN,Taiwan,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
-36,90731,"CHENG CHEN, HUEY-WEN",TWN,Taiwan,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
-37,75068,"CHEN, HUNG-CHE",TWN,Taiwan,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
-38,75505,"CHEN, HUNG-I",TWN,Taiwan,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
-39,75691,"TU, PING-NAN",TWN,Taiwan,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
-40,75771,"YANG, YAO-CHI",TWN,Taiwan,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
-41,76291,"CHEN, HUN-HUN",TWN,Taiwan,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
-42,95456,Newhouse Finance Limited                ,SGP,Singapore,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
-43,105366,American Heart Association,XXX,Not identified,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,True
-44,84445,"CHEN, CHIN-CHUNG",TWN,Taiwan,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
-45,94477,"CHEN, LI-HSIANG",TWN,Taiwan,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
-46,77721,"CHUNG, AI-LI",TWN,Taiwan,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
-47,79919,"CHEN, HUNG-WEN",TWN,Taiwan,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
-48,112458,"CHEN, I-HAN",TWN,Taiwan,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
-49,98828,"CHEN, SHU-CHI",TWN,Taiwan,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
-50,109057,Joan Ai-Lee Rombouts                    ,XXX,Not identified,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
-51,86009,"YANG, SHIH-SHENG",TWN,Taiwan,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
-52,100976,Patrick Harrigan,XXX,Not identified,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
-53,102141,The Salvation Army                      ,XXX,Not identified,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,True
-54,96909,Portcullis TrustNet (Samoa) Limited,SGP;KEN;TWN;WSM;CHN;GBR,Singapore;Kenya;Taiwan;Samoa;China;United Kingdom,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
-55,109710,NetIncorp Agent Services Inc.,XXX,Not identified,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
-56,110052,"CHEN, TAY-SHOUH",TWN,Taiwan,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
-57,117408,Alexander Johan Widjaja ,IDN,Indonesia,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
-58,20928,International Administrators Limited,CHN,China,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
-59,22302,CIA Nominees Ltd.,VIR,U.S. Virgin Islands,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
-60,22387,Sheng Bin,CHN,China,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
-61,37736,Catholic Charities                      ,XXX,Not identified,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,True
-62,41975,Angela Lestari Widjaja,IDN,Indonesia,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
-63,42278,Vincent Yeoh Oon Weng                   ,SGP,Singapore,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
-64,45199,Camber Limited,CYM,Cayman Islands,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
-65,67150,MARIANELLA DOMADOR-PINEDA,XXX,Not identified,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
-66,49684,Equity Trust (Samoa) Limited,WSM,Samoa,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
-67,53695,"YANG, CHIH-HSIN",TWN,Taiwan,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
-68,58528,"HSUEH, CHING-YUEH",TWN,Taiwan,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
-69,54662,Portcullis TrustNet (BVI) Limited,THA;VGB;IDN;SGP,Thailand;British Virgin Islands;Indonesia;Singapore,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
-70,53010,"CHEN, LI-CHU",TWN,Taiwan,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
-71,53149,"YANG, TAI-YUAN",TWN,Taiwan,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
-72,57225,Brott Limited,CYM,Cayman Islands,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
-73,70068,"WANG, YU-CHIN",TWN,Taiwan,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
-74,73166,"WU, MEI-LING ",TWN,Taiwan,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
-75,59567,"YANG, CHIA-LUN",TWN,Taiwan,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
+6,48230,Bermuda Trust (Jersey) Limited,JEY,Jersey,,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,False
+7,49684,Equity Trust (Samoa) Limited,WSM,Samoa,,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,False
+8,54662,Portcullis TrustNet (BVI) Limited,THA;VGB;IDN;SGP,Thailand;British Virgin Islands;Indonesia;Singapore,,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,False
+9,123290,Company Incorporations Asia Limited,XXX,Not identified,,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,False
+10,119709,ATC Primasia Limited,HKG,Hong Kong,,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,False
+11,290197,NetIncorp.com Corporation,VGB,British Virgin Islands,,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,False
+12,291482,"Gold-In Consulting Co., Ltd. ???????????????",TWN,Taiwan,,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,False
+13,290441,Diana Leng,USA,United States,,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,False
+14,295468,Sandy Wu,TWN,Taiwan,,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,False
+15,296942,Malkin & Maxwell LLP,SGP,Singapore,,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,False
+16,297026,Wan-Shin Certified Public Accounting Firm - ????????,TWN,Taiwan,,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,False
+17,294890,Portcullis Fund Administration (S) Pte. Ltd,SGP,Singapore,,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,False
+18,298073,Hill Consulting Ltd.,RUS,Russia,,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,False
+19,297687,Company Kit Limited,HKG,Hong Kong,,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,False
+20,126155,THE PHOENIX TRUST,BVI,British Virgin Islands,VGB,British Virgin Islands,17-OCT-1994,,,,N11103,Active,BVI Trust,Portcullis Trustnet,Offshore Leaks,The Offshore Leaks data is current through 2010,,False
+21,133188,THE ASIA TRUST,BVI,British Virgin Islands,VGB,British Virgin Islands,14-DEC-1995,,,,11069,Struck / Defunct / Deregistered,BVI Trust,Portcullis Trustnet,Offshore Leaks,The Offshore Leaks data is current through 2010,,True
+22,133829,MACDONNELL TRUST,BVI,British Virgin Islands,VGB,British Virgin Islands,22-MAY-1998,,,,M11088,Active,BVI Trust,Portcullis Trustnet,Offshore Leaks,The Offshore Leaks data is current through 2010,,False
+23,147116,INTERNATIONAL MEDICAL CORPORATION,BVI,British Virgin Islands,VGB,British Virgin Islands,15-DEC-2005,,,,689130,Struck / Defunct / Deregistered,Standard International Company,Portcullis Trustnet,Offshore Leaks,The Offshore Leaks data is current through 2010,,True
+24,158005,"Vision World International Co., Ltd.",SAM,Samoa,WSM,Samoa,05-MAR-2008,,,,36769/08,Active,Standard International Company,Portcullis Trustnet,Offshore Leaks,The Offshore Leaks data is current through 2010,,True
+25,169806,Mixed Nuts Trust,COOK,Cook Islands,XXX,Not identified,21-AUG-1998,,,,3420/98,Struck / Defunct / Deregistered,Cook Islands Asset Protection Trust - 3520A,Portcullis Trustnet,Offshore Leaks,The Offshore Leaks data is current through 2010,,False
+26,174703,VISION INTERNATIONAL LIMITED,SAM,Samoa,WSM,Samoa,01-APR-2005,,,,20666/05,Active,Standard International Company,Portcullis Trustnet,Offshore Leaks,The Offshore Leaks data is current through 2010,,True
+27,169213,Friends of Assisi Trust,COOK,Cook Islands,XXX,Not identified,28-JUN-1995,,,,2118/95,Struck / Defunct / Deregistered,Cook Islands Asset Protection Trust - 3520A,Portcullis Trustnet,Offshore Leaks,The Offshore Leaks data is current through 2010,,False
+28,169195,Exodus Trust,COOK,Cook Islands,XXX,Not identified,12-FEB-1996,,,,2408/96,Un Registered,Cook Islands Trust,Portcullis Trustnet,Offshore Leaks,The Offshore Leaks data is current through 2010,,False
+29,169289,Herman Silver International Trust,COOK,Cook Islands,XXX,Not identified,28-JAN-1994,,,,1531/94,Struck / Defunct / Deregistered,Cook Islands Trust,Portcullis Trustnet,Offshore Leaks,The Offshore Leaks data is current through 2010,,False
+30,158540,WORLD VISION CORP.,SAM,Samoa,WSM,Samoa,24-APR-2008,,,,37416/08,Active,Standard International Company,Portcullis Trustnet,Offshore Leaks,The Offshore Leaks data is current through 2010,,True
+31,186740,Sandy Wu,XXX,Undetermined,XXX,Not identified,,,,,,,Client Sundry Account,Portcullis Trustnet,Offshore Leaks,The Offshore Leaks data is current through 2010,This is not an offshore entity even though it was logged as such in original database ICIJ received. It isi an internal account created by the agent to record miscellaneous charges of an officer or intermediary,True
+32,166497,Crystal Global Fund,XXX,"""Recorded in leaked files as """"fund""""""",CYM,Cayman Islands,06-NOV-2007,,,,CR198533,Active,Mutual Fund Manager,Portcullis Trustnet,Offshore Leaks,The Offshore Leaks data is current through 2010,,True
+33,164742,Crystal Global Fund,CAYMN,Cayman,CYM,Cayman Islands,06-NOV-2007,,,,CR198533,Active,Mutual Fund,Portcullis Trustnet,Offshore Leaks,The Offshore Leaks data is current through 2010,,True
+34,168995,Captive Insurance Trust,COOK,Cook Islands,XXX,Not identified,05-MAY-1993,,,,1257/93,Un Registered,Cook Islands Trust,Portcullis Trustnet,Offshore Leaks,The Offshore Leaks data is current through 2010,,False
+35,169189,Five Star Aku Trust,COOK,Cook Islands,XXX,Not identified,19-FEB-1996,,,,2420/96,Struck / Defunct / Deregistered,Cook Islands Asset Protection Trust,Portcullis Trustnet,Offshore Leaks,The Offshore Leaks data is current through 2010,,False
+36,190568,International Medical Fund,XXX,Undetermined,HKG;XXX,Hong Kong;Not identified,12-APR-2005,,,,00000,Active,Trust,Commonwealth Trust Limited,Offshore Leaks,The Offshore Leaks data is current through 2010,,True
+37,169575,Ethical Technologies Trust,COOK,Cook Islands,XXX,Not identified,28-OCT-1999,,,,3799/99,Struck / Defunct / Deregistered,Cook Islands Asset Protection Trust - 3520A,Portcullis Trustnet,Offshore Leaks,The Offshore Leaks data is current through 2010,,False
+38,169589,Cosmo Trust,COOK,Cook Islands,XXX,Not identified,02-OCT-1997,,,,3103/97,Active,Cook Islands Trust,Portcullis Trustnet,Offshore Leaks,The Offshore Leaks data is current through 2010,,False
+39,169805,Spread Trust,COOK,Cook Islands,XXX,Not identified,21-AUG-1998,,,,3421/98,Active,Cook Islands Asset Protection Trust - 3520A,Portcullis Trustnet,Offshore Leaks,The Offshore Leaks data is current through 2010,,False
+40,169065,Clover Trust,COOK,Cook Islands,XXX,Not identified,30-JUN-1995,,,,2122/95,Struck / Defunct / Deregistered,Cook Islands Asset Protection Trust - 3520A,Portcullis Trustnet,Offshore Leaks,The Offshore Leaks data is current through 2010,,False
+41,169464,The Young Benefit International Non-Grantor Trust,COOK,Cook Islands,XXX,Not identified,26-FEB-1999,,,,3588/99,Struck / Defunct / Deregistered,Cook Islands Asset Protection Trust,Portcullis Trustnet,Offshore Leaks,The Offshore Leaks data is current through 2010,,False
+42,197748,EAST MEETS WEST INTERNATIONAL LIMITED,XXX,Undetermined,CHN;VGB,China;British Virgin Islands,02-MAR-2006,,,,1013455,Transferred OUT,Business Company Limited by Shares,Commonwealth Trust Limited,Offshore Leaks,The Offshore Leaks data is current through 2010,,True
+43,208672,Adra Limited,XXX,Undetermined,VGB;RUS,British Virgin Islands;Russia,05-JUN-2007,,,,1408767,Dead,Business Company Limited by Shares,Commonwealth Trust Limited,Offshore Leaks,The Offshore Leaks data is current through 2010,,True
+44,158169,WORLD VISION LIMITED,SAM,Samoa,WSM,Samoa,19-MAR-2008,,,,36954/08,Active,Standard International Company,Portcullis Trustnet,Offshore Leaks,The Offshore Leaks data is current through 2010,,True
+45,169063,Axis Trust,COOK,Cook Islands,XXX,Not identified,30-JUN-1995,,,,2120/95,Struck / Defunct / Deregistered,Cook Islands Asset Protection Trust - 3520A,Portcullis Trustnet,Offshore Leaks,The Offshore Leaks data is current through 2010,,False
+46,169460,Care Trust,COOK,Cook Islands,XXX,Not identified,10-JUN-1998,,,,3349/98,Struck / Defunct / Deregistered,Cook Islands Trust,Portcullis Trustnet,Offshore Leaks,The Offshore Leaks data is current through 2010,,True
+47,170507,The Wexford Trust,COOK,Cook Islands,COK,Cook Islands,04-MAY-2001,,,,4223/2001,Struck / Defunct / Deregistered,Cook Islands Asset Protection Trust - 3520A,Portcullis Trustnet,Offshore Leaks,The Offshore Leaks data is current through 2010,,False
+48,123767,ASC ASIAN EQUITY LIMITED,BVI,British Virgin Islands,VGB,British Virgin Islands,17-AUG-1994,,,,126333,Company liquidated,Standard International Company,Portcullis Trustnet,Offshore Leaks,The Offshore Leaks data is current through 2010,,False
+49,72219,"Wang, I-Lin",TWN,Taiwan,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
+50,109972,World Vision                            ,XXX,Not identified,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,True
+51,87806,"CHEN, Joan-Yi",USA,United States,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
+52,92722,"CHUNG, AI-CHING",TWN,Taiwan,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
+53,90731,"CHENG CHEN, HUEY-WEN",TWN,Taiwan,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
+54,75068,"CHEN, HUNG-CHE",TWN,Taiwan,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
+55,75505,"CHEN, HUNG-I",TWN,Taiwan,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
+56,75691,"TU, PING-NAN",TWN,Taiwan,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
+57,75771,"YANG, YAO-CHI",TWN,Taiwan,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
+58,76291,"CHEN, HUN-HUN",TWN,Taiwan,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
+59,95456,Newhouse Finance Limited                ,SGP,Singapore,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
+60,91923,"Chien, Chun-Sheng",TWN,Taiwan,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
+61,105366,American Heart Association,XXX,Not identified,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,True
+62,81544,DANI ISMULYATIE,IDN,Indonesia,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
+63,84445,"CHEN, CHIN-CHUNG",TWN,Taiwan,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
+64,94477,"CHEN, LI-HSIANG",TWN,Taiwan,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
+65,77721,"CHUNG, AI-LI",TWN,Taiwan,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
+66,79919,"CHEN, HUNG-WEN",TWN,Taiwan,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
+67,112458,"CHEN, I-HAN",TWN,Taiwan,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
+68,98828,"CHEN, SHU-CHI",TWN,Taiwan,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
+69,109057,Joan Ai-Lee Rombouts                    ,XXX,Not identified,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
+70,86009,"YANG, SHIH-SHENG",TWN,Taiwan,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
+71,100976,Patrick Harrigan,XXX,Not identified,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
+72,102141,The Salvation Army                      ,XXX,Not identified,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,True
+73,102164,International Red Cross,XXX,Not identified,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,True
+74,96909,Portcullis TrustNet (Samoa) Limited,SGP;KEN;TWN;WSM;CHN;GBR,Singapore;Kenya;Taiwan;Samoa;China;United Kingdom,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
+75,122202,World Wildlife Foundation               ,XXX,Not identified,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,True
+76,109710,NetIncorp Agent Services Inc.,XXX,Not identified,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
+77,110052,"CHEN, TAY-SHOUH",TWN,Taiwan,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
+78,117466,The Art Institute of Chicago,USA,United States,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
+79,117408,Alexander Johan Widjaja ,IDN,Indonesia,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
+80,121744,Greenpeace International                ,XXX,Not identified,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,True
+81,120319,The Metropolitian Museum of Art,XXX,Not identified,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,True
+82,20928,International Administrators Limited,CHN,China,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
+83,22302,CIA Nominees Ltd.,VIR,U.S. Virgin Islands,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
+84,22387,Sheng Bin,CHN,China,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
+85,37736,Catholic Charities                      ,XXX,Not identified,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,True
+86,42318,Gerald Zima,SGP,Singapore,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
+87,41975,Angela Lestari Widjaja,IDN,Indonesia,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
+88,42278,Vincent Yeoh Oon Weng                   ,SGP,Singapore,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
+89,45199,Camber Limited,CYM,Cayman Islands,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
+90,67150,MARIANELLA DOMADOR-PINEDA,XXX,Not identified,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
+91,48230,Bermuda Trust (Jersey) Limited,JEY,Jersey,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
+92,49684,Equity Trust (Samoa) Limited,WSM,Samoa,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
+93,53695,"YANG, CHIH-HSIN",TWN,Taiwan,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
+94,58528,"HSUEH, CHING-YUEH",TWN,Taiwan,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
+95,54662,Portcullis TrustNet (BVI) Limited,THA;VGB;IDN;SGP,Thailand;British Virgin Islands;Indonesia;Singapore,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
+96,53010,"CHEN, LI-CHU",TWN,Taiwan,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
+97,53149,"YANG, TAI-YUAN",TWN,Taiwan,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
+98,57225,Brott Limited,CYM,Cayman Islands,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
+99,70068,"WANG, YU-CHIN",TWN,Taiwan,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
+100,61034,Amnesty International                   ,XXX,Not identified,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,True
+101,107786,Unicef                                  ,XXX,Not identified,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,True
+102,73166,"WU, MEI-LING ",TWN,Taiwan,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False
+103,59567,"YANG, CHIA-LUN",TWN,Taiwan,Offshore Leaks,The Offshore Leaks data is current through 2010,,,,,,,,,,,,False

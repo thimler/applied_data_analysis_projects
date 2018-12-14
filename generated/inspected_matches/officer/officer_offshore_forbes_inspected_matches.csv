@@ -1,8 +1,8 @@
 ,node_id,ShellName,CharityName,CharityHeadquarters
-"0,109972,World Vision                            ,World Vision,""Federal Way, Washington"""
-"1,105366,American Heart Association,American Heart Association,""Dallas, Texas"""
-"3,102141,The Salvation Army                      ,Salvation Army,""Alexandria, Virginia"""
-"4,102164,International Red Cross,Cross International,""Pompano Beach, Florida"""
-"5,122202,World Wildlife Foundation               ,World Wildlife Fund,""Washington, District of Columbia"""
-"7,120319,The Metropolitian Museum of Art,Metropolitan Museum of Art,""New York, New York"""
-"11,37736,Catholic Charities                      ,Catholic Charities USA,""Alexandria, Virginia"""
+0,109972,World Vision                            ,World Vision,Federal Way, Washington
+1,105366,American Heart Association,American Heart Association,Dallas, Texas
+3,102141,The Salvation Army                      ,Salvation Army,Alexandria, Virginia
+4,102164,International Red Cross,Cross International,Pompano Beach, Florida
+5,122202,World Wildlife Foundation               ,World Wildlife Fund,Washington, District of Columbia
+7,120319,The Metropolitian Museum of Art,Metropolitan Museum of Art,New York, New York
+11,37736,Catholic Charities                      ,Catholic Charities USA,Alexandria, Virginia
