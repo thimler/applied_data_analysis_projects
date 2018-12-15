@@ -4,11 +4,11 @@
 ## Abstract
 In 2015, an anonymous whistleblower leaked over 11.5 million financial documents from the Panamanian law firm Mossack Fonseca, the biggest data leak in History. Known as the [Panama Papers](https://www.theguardian.com/news/2016/apr/03/what-you-need-to-know-about-the-panama-papers), these documents revealed the  financial client informations of more than 200,000 offshores entities and exposed dozens of public officials, politicians, corporations, and charities. We would like to investigate the story of these charities.
 
-Most charities are non-profit voluntaries association with a purpose to serve the common good. Their main source of income comes from donations, thus their success is directly linked to their reputation. How can we tell if a charity is worthy of our money?
+Most charities are non-profit voluntaries associations with a purpose to serve the common good. Their main source of income comes from donations, thus their success is directly linked to their reputation. How can we tell if a charity is worthy of our money?
 
 Additionally, it has come out that many [shell companies](https://www.reuters.com/article/us-panama-tax-charities/aid-agencies-fear-damage-to-reputation-as-red-cross-appears-in-panama-papers-idUSKCN0X828W) created by Mossack Fonseca were named after charities with which they had no connection. This of course can put the reputations of perfectly transparent charities at risk.
 
-Therefore, we will determine the degree of involvement of charities whose names turn up in the publicly accessible Panama Papers database. We will also extend our seatch into data leaks
+Therefore, we will search for and examine the way charities appear in the publicly accessible Panama Papers database. We will also extend our seatch into data leaks
 prior and later to the Panama Papers (the Paradise Papers, the Bahamas Leaks, and the Offshore leaks).
     
 ## Research questions
@@ -76,6 +76,9 @@ prior and later to the Panama Papers (the Paradise Papers, the Bahamas Leaks, an
 				> Notebook with:
 					> functions to scrape the given wikipedia page
 					> analysis of the found data
+	* name_ extraction_spark.ipynb
+		> Notebook with:
+			> functions to search for matches between leaked shell company names and charity names
 	* Analysis.ipynb
 		> Notebook generating and analysing
 			> Address pairs belonging to shell-charity matches
@@ -84,9 +87,8 @@ prior and later to the Panama Papers (the Paradise Papers, the Bahamas Leaks, an
 		> Notebook creating files containing information about 
 			> joining matches by leak
 			> connecting matched shells to nodes one degree away in the leaks
-	* name_ extraction_spark.ipynb
-		> Notebook with:
-			> functions to search for matches between leaked shell company names and charity names
+	* Graphing_network.ipynb
+		> Notebook creating json files for the data story's interactive graphs
 	* _network
 		> files for creation of the data story interactive networks
 	* http_server.py
