@@ -89,8 +89,6 @@ prior and later to the Panama Papers (the Paradise Papers, the Bahamas Leaks, an
 			> connecting matched shells to nodes one degree away in the leaks
 	* Graphing_network.ipynb
 		> Notebook creating json files for the data story's interactive graphs
-	* _network
-		> files for creation of the data story interactive networks
 	* http_server.py
 		> data story set-up file
 	
