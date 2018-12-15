@@ -1,7 +1,7 @@
 function selectableForceDirectedGraph() {
     var width = 960,
 
-    height = 500,
+    height = 960,
     shiftKey, ctrlKey;
 
     var nodeGraph = null;
@@ -9,7 +9,7 @@ function selectableForceDirectedGraph() {
     .domain([0,width]).range([0,width]);
     var yScale = d3.scale.linear()
     .domain([0,height]).range([0, height]);
-
+	
     var svg = d3.select("#d3_selectable_force_directed_graph")
     .attr("tabindex", 1)
     .on("keydown.brush", keydown)
@@ -52,7 +52,7 @@ function selectableForceDirectedGraph() {
         var extent = d3.event.target.extent();
 
         node.classed("selected", function(d) {
-            return d.selected = d.previouslySelected ^
+            return d.selected = d.previouslySelected
             (extent[0][0] <= d.x && d.x < extent[1][0]
              && extent[0][1] <= d.y && d.y < extent[1][1]);
         });
@@ -104,6 +104,10 @@ function selectableForceDirectedGraph() {
     var node = vis.append("g")
     .attr("class", "node")
     .selectAll("circle");
+	
+	var text = vis.append("g")
+    .attr("class", "labels")
+    .selectAll("text")
 	
     center_view = function() {
         // Center the view on the molecule(s) and scale it so that everything
@@ -179,10 +183,14 @@ function selectableForceDirectedGraph() {
         .attr("x2", function(d) { return d.target.x; })
         .attr("y2", function(d) { return d.target.y; });
 
+		text = text.data(graph.nodes).enter().append("text")
+		.attr("dx", 12)
+		.attr("dy", ".35em")
+		.text(function(d) { return d.name });
 
         var force = d3.layout.force()
         .charge(-120)
-        .linkDistance(30)
+        .linkDistance(20)
         .nodes(graph.nodes)
         .links(graph.links)
         .size([width, height])
@@ -216,6 +224,7 @@ function selectableForceDirectedGraph() {
 		
         node = node.data(graph.nodes).enter().append("circle")
         .attr("r", 4)
+		.attr("fill", function(d) { return d.match == true ? "red" : "grey";})
         .attr("cx", function(d) { return d.x; })
         .attr("cy", function(d) { return d.y; })
         .on("dblclick", function(d) { d3.event.stopPropagation(); })
@@ -230,11 +239,11 @@ function selectableForceDirectedGraph() {
             // always select this node
             d3.select(this).classed("selected", d.selected = !d.previouslySelected);
         })
-		
 
         .on("mouseup", function(d) {
             //if (d.selected && shiftKey) d3.select(this).classed("selected", d.selected = false);
         })
+		
         .call(d3.behavior.drag()
               .on("dragstart", dragstarted)
               .on("drag", dragged)
@@ -249,20 +258,19 @@ function selectableForceDirectedGraph() {
                   node.attr('cx', function(d) { return d.x; })
                   .attr('cy', function(d) { return d.y; });
 
+				  text.attr("x", function(d) { return d.x; })
+				  .attr("y", function(d) { return d.y; });
               };
 
               force.on("tick", tick);
 
-		node.append("title")
-        .text(function(d) { 
-            if ('name' in d)
-                return d.name;
-            else
-                return d.id; 
-        });
-			  
-    });
-
+		//node.append("title")
+        //.text(function(d) { 
+        //    if ('name' in d)
+        //        return d.name;
+        //    else
+        //        return d.id; 
+        //});
 
     function keydown() {
         shiftKey = d3.event.shiftKey || d3.event.metaKey;

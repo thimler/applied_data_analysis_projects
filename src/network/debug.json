@@ -4,27 +4,27 @@
     {  
       "x":0,
       "y":0,
-	  "id":11
+	  "id":0
     },
     {  
       "x":0,
       "y":0,
-	  "id":12
+	  "id":1
     },
     {  
       "x":0,
       "y":0,
-	  "id":13
+	  "id":3
     }
   ],
   "links":[  
     {  
-      "source":12,
-      "target":11
+      "source":0,
+      "target":1
     },
     {  
-      "source":13,
-      "target":11
+      "source":3,
+      "target":0
     }
   ]
 }
